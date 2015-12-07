@@ -22,14 +22,14 @@ class flashcard(urwid.Pile):
     def keypress(self,size,key):
         if key == 'enter':
             # correct answer
-            if self.answer.edit_text == str(self.deck[self.questionNumber][self.answerKey]):
+            if self.answer.edit_text == unicode(self.deck[self.questionNumber][self.answerKey]):
                 self.randomizeQuestion()
             # incorrect answer
             else:
-                self.question.set_text("{} is {}".format(
-                    str(self.deck[self.questionNumber][self.questionKey]),
-                    str(self.deck[self.questionNumber][self.answerKey]))
-                    )
+                self.question.set_text(u"{} is {}".format(
+                    unicode(self.deck[self.questionNumber][self.questionKey]),
+                    unicode(self.deck[self.questionNumber][self.answerKey])
+                    ))
                 self.answer.set_edit_text("")
         elif key == 'esc':
             #THIS IS HACKY AS FUCK. tbh I don't urwid so good yet.
@@ -41,15 +41,21 @@ def deckChosen(button,deck):
     deck = json.load(fl)
     fl.close()
     del fl
-    cardwidget = flashcard(deck,'binary','decimal')
+    keys = set()
+    for card in deck:
+        for key in card:
+            keys.add(key)
+    cardwidget = flashcard(deck,keys.pop(),keys.pop())
     box = urwid.LineBox(cardwidget)
     fill = urwid.Filler(box,'middle')
-    padd.original_widget = urwid.Overlay(fill,
+    openSimpleOverlay(fill)
+
+def openSimpleOverlay(wid):
+    padd.original_widget = urwid.Overlay(wid,
             padd.original_widget,
             align='center', width=('relative',80),
             valign='middle', height=('relative',80),
             left=12,right=12,top=12,bottom=12)
-
 
 class Menu(urwid.ListBox):
     def __init__(self,*args,**kwargs):
@@ -66,7 +72,7 @@ class Menu(urwid.ListBox):
         return super(Menu,self).keypress(size,key)
 
 menu = Menu()
-padd = urwid.Padding(menu,'center',('relative',80))
+padd = urwid.Padding(menu,'center',left=2,right=2)
 
 loop = urwid.MainLoop(padd, unhandled_input=ultimateKeys)
 
