@@ -9,7 +9,7 @@ def ultimateKeys(key):
 class flashcard(urwid.Pile):
     def randomizeQuestion(self):
         self.questionNumber=random.randint(0,len(self.deck)-1)
-        self.question.set_text(self.deck[self.questionNumber][self.questionKey])
+        self.question.set_text(unicode(self.deck[self.questionNumber][self.questionKey]))
         self.answer.set_edit_text("")
     def __init__(self, deck,questionKey,answerKey,*args,**kwargs):
         self.deck = deck
@@ -45,7 +45,11 @@ def deckChosen(button,deck):
     for card in deck:
         for key in card:
             keys.add(key)
-    cardwidget = flashcard(deck,keys.pop(),keys.pop())
+    keys=list(keys)
+    prompt=random.choice(keys)
+    keys.remove(prompt)
+    answer=random.choice(keys)
+    cardwidget = flashcard(deck,prompt,answer)
     box = urwid.LineBox(cardwidget)
     fill = urwid.Filler(box,'middle')
     openSimpleOverlay(fill)
@@ -55,7 +59,7 @@ def openSimpleOverlay(wid):
             padd.original_widget,
             align='center', width=('relative',80),
             valign='middle', height=('relative',80),
-            left=12,right=12,top=12,bottom=12)
+            left=2,right=2,top=2,bottom=2)
 
 class Menu(urwid.ListBox):
     def __init__(self,*args,**kwargs):
