@@ -1,0 +1,40 @@
+
+I want to have a seed of this project by this monday when mom will drive me back to hali. Then I'll try to spend most of my time hacking on thing's I can potentially sell. But if I already have the seed, I can grow it while using it.
+
+Goals for self study software:
+
+Task management:
+Help direct organisation of study. Make suggestions of tasks.
+When I can't concentrate on what to do with myself I read reddit or reread webcomics. I'd rather have a grouping of low thought flashcard / learning games to do.
+Also suggested reading or meditations.
+
+Flash-memorization:
+Help with the production of sets of flashcards, or other learing tools.
+  A tool could;
+    - parse csv's or other formats.
+    - It could start with a list and ask a user to research and produce the other side of the flashcard.
+    - It could ask a user to produce both sides.
+  There are probably a lot of sources for knowlege that could be flashcardified. Translation lists and charts are obvious. Articles and books would be nice. "Active reading".
+  If multiple users are producing flash-relations. It may or may not be advantageous to use others decks, or to compare the decks created by common lists / sources.
+  Flashcards need not have only two sides. Words in other languages obviously have more than one translation. For a flashcard a user could enter any translation, or all translations.
+  For more complex subjects flashcards may not work as well.
+
+Auto-creation of decks of required words for books, videos and songs. This would work well if I can find text versions of the media. (should be easy for books.)
+
+  Monitor flashcard progress, and use it for managing flashcard presentation, and for studying the memorization process.
+I'd like it to be easy to try out different algorithims for presenting flashcards.
+I'd also like it to be easy to modify decks, I need to think of a data dump format that respects changing decks.
+I suppose I could say what the question and answer where, and then if the question is removed from the deck it will still show in the log. I doubt it would take up too much space. text is basically free, isn't it?
+I think I'll not log the key used for enter, or the keyboard used, For now.
+
+In order to monitor progress on a learning task, an ability to measure the learning is needed.
+I want to be able to interopolate fuzzy and less fuzzy measurements.
+
+Visualization tools for seeing where and how time is spent.
+
+
+Self logging:
+Catagorized and uncatagorized natural language text bites, Like the journal I have now, but easier to parse into project based logs vs day to day logs, vs some combonation of the two.
+Keep A dream jounal.
+Keep track of other repeated tasks. Laundry, brushing teeth, day to day things... Track all the things! (just cause I wanna)
+

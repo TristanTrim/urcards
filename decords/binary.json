@@ -1,0 +1,4098 @@
+[
+    {
+        "binary": "0", 
+        "decimal": 0
+    }, 
+    {
+        "binary": "1", 
+        "decimal": 1
+    }, 
+    {
+        "binary": "10", 
+        "decimal": 2
+    }, 
+    {
+        "binary": "11", 
+        "decimal": 3
+    }, 
+    {
+        "binary": "100", 
+        "decimal": 4
+    }, 
+    {
+        "binary": "101", 
+        "decimal": 5
+    }, 
+    {
+        "binary": "110", 
+        "decimal": 6
+    }, 
+    {
+        "binary": "111", 
+        "decimal": 7
+    }, 
+    {
+        "binary": "1000", 
+        "decimal": 8
+    }, 
+    {
+        "binary": "1001", 
+        "decimal": 9
+    }, 
+    {
+        "binary": "1010", 
+        "decimal": 10
+    }, 
+    {
+        "binary": "1011", 
+        "decimal": 11
+    }, 
+    {
+        "binary": "1100", 
+        "decimal": 12
+    }, 
+    {
+        "binary": "1101", 
+        "decimal": 13
+    }, 
+    {
+        "binary": "1110", 
+        "decimal": 14
+    }, 
+    {
+        "binary": "1111", 
+        "decimal": 15
+    }, 
+    {
+        "binary": "10000", 
+        "decimal": 16
+    }, 
+    {
+        "binary": "10001", 
+        "decimal": 17
+    }, 
+    {
+        "binary": "10010", 
+        "decimal": 18
+    }, 
+    {
+        "binary": "10011", 
+        "decimal": 19
+    }, 
+    {
+        "binary": "10100", 
+        "decimal": 20
+    }, 
+    {
+        "binary": "10101", 
+        "decimal": 21
+    }, 
+    {
+        "binary": "10110", 
+        "decimal": 22
+    }, 
+    {
+        "binary": "10111", 
+        "decimal": 23
+    }, 
+    {
+        "binary": "11000", 
+        "decimal": 24
+    }, 
+    {
+        "binary": "11001", 
+        "decimal": 25
+    }, 
+    {
+        "binary": "11010", 
+        "decimal": 26
+    }, 
+    {
+        "binary": "11011", 
+        "decimal": 27
+    }, 
+    {
+        "binary": "11100", 
+        "decimal": 28
+    }, 
+    {
+        "binary": "11101", 
+        "decimal": 29
+    }, 
+    {
+        "binary": "11110", 
+        "decimal": 30
+    }, 
+    {
+        "binary": "11111", 
+        "decimal": 31
+    }, 
+    {
+        "binary": "100000", 
+        "decimal": 32
+    }, 
+    {
+        "binary": "100001", 
+        "decimal": 33
+    }, 
+    {
+        "binary": "100010", 
+        "decimal": 34
+    }, 
+    {
+        "binary": "100011", 
+        "decimal": 35
+    }, 
+    {
+        "binary": "100100", 
+        "decimal": 36
+    }, 
+    {
+        "binary": "100101", 
+        "decimal": 37
+    }, 
+    {
+        "binary": "100110", 
+        "decimal": 38
+    }, 
+    {
+        "binary": "100111", 
+        "decimal": 39
+    }, 
+    {
+        "binary": "101000", 
+        "decimal": 40
+    }, 
+    {
+        "binary": "101001", 
+        "decimal": 41
+    }, 
+    {
+        "binary": "101010", 
+        "decimal": 42
+    }, 
+    {
+        "binary": "101011", 
+        "decimal": 43
+    }, 
+    {
+        "binary": "101100", 
+        "decimal": 44
+    }, 
+    {
+        "binary": "101101", 
+        "decimal": 45
+    }, 
+    {
+        "binary": "101110", 
+        "decimal": 46
+    }, 
+    {
+        "binary": "101111", 
+        "decimal": 47
+    }, 
+    {
+        "binary": "110000", 
+        "decimal": 48
+    }, 
+    {
+        "binary": "110001", 
+        "decimal": 49
+    }, 
+    {
+        "binary": "110010", 
+        "decimal": 50
+    }, 
+    {
+        "binary": "110011", 
+        "decimal": 51
+    }, 
+    {
+        "binary": "110100", 
+        "decimal": 52
+    }, 
+    {
+        "binary": "110101", 
+        "decimal": 53
+    }, 
+    {
+        "binary": "110110", 
+        "decimal": 54
+    }, 
+    {
+        "binary": "110111", 
+        "decimal": 55
+    }, 
+    {
+        "binary": "111000", 
+        "decimal": 56
+    }, 
+    {
+        "binary": "111001", 
+        "decimal": 57
+    }, 
+    {
+        "binary": "111010", 
+        "decimal": 58
+    }, 
+    {
+        "binary": "111011", 
+        "decimal": 59
+    }, 
+    {
+        "binary": "111100", 
+        "decimal": 60
+    }, 
+    {
+        "binary": "111101", 
+        "decimal": 61
+    }, 
+    {
+        "binary": "111110", 
+        "decimal": 62
+    }, 
+    {
+        "binary": "111111", 
+        "decimal": 63
+    }, 
+    {
+        "binary": "1000000", 
+        "decimal": 64
+    }, 
+    {
+        "binary": "1000001", 
+        "decimal": 65
+    }, 
+    {
+        "binary": "1000010", 
+        "decimal": 66
+    }, 
+    {
+        "binary": "1000011", 
+        "decimal": 67
+    }, 
+    {
+        "binary": "1000100", 
+        "decimal": 68
+    }, 
+    {
+        "binary": "1000101", 
+        "decimal": 69
+    }, 
+    {
+        "binary": "1000110", 
+        "decimal": 70
+    }, 
+    {
+        "binary": "1000111", 
+        "decimal": 71
+    }, 
+    {
+        "binary": "1001000", 
+        "decimal": 72
+    }, 
+    {
+        "binary": "1001001", 
+        "decimal": 73
+    }, 
+    {
+        "binary": "1001010", 
+        "decimal": 74
+    }, 
+    {
+        "binary": "1001011", 
+        "decimal": 75
+    }, 
+    {
+        "binary": "1001100", 
+        "decimal": 76
+    }, 
+    {
+        "binary": "1001101", 
+        "decimal": 77
+    }, 
+    {
+        "binary": "1001110", 
+        "decimal": 78
+    }, 
+    {
+        "binary": "1001111", 
+        "decimal": 79
+    }, 
+    {
+        "binary": "1010000", 
+        "decimal": 80
+    }, 
+    {
+        "binary": "1010001", 
+        "decimal": 81
+    }, 
+    {
+        "binary": "1010010", 
+        "decimal": 82
+    }, 
+    {
+        "binary": "1010011", 
+        "decimal": 83
+    }, 
+    {
+        "binary": "1010100", 
+        "decimal": 84
+    }, 
+    {
+        "binary": "1010101", 
+        "decimal": 85
+    }, 
+    {
+        "binary": "1010110", 
+        "decimal": 86
+    }, 
+    {
+        "binary": "1010111", 
+        "decimal": 87
+    }, 
+    {
+        "binary": "1011000", 
+        "decimal": 88
+    }, 
+    {
+        "binary": "1011001", 
+        "decimal": 89
+    }, 
+    {
+        "binary": "1011010", 
+        "decimal": 90
+    }, 
+    {
+        "binary": "1011011", 
+        "decimal": 91
+    }, 
+    {
+        "binary": "1011100", 
+        "decimal": 92
+    }, 
+    {
+        "binary": "1011101", 
+        "decimal": 93
+    }, 
+    {
+        "binary": "1011110", 
+        "decimal": 94
+    }, 
+    {
+        "binary": "1011111", 
+        "decimal": 95
+    }, 
+    {
+        "binary": "1100000", 
+        "decimal": 96
+    }, 
+    {
+        "binary": "1100001", 
+        "decimal": 97
+    }, 
+    {
+        "binary": "1100010", 
+        "decimal": 98
+    }, 
+    {
+        "binary": "1100011", 
+        "decimal": 99
+    }, 
+    {
+        "binary": "1100100", 
+        "decimal": 100
+    }, 
+    {
+        "binary": "1100101", 
+        "decimal": 101
+    }, 
+    {
+        "binary": "1100110", 
+        "decimal": 102
+    }, 
+    {
+        "binary": "1100111", 
+        "decimal": 103
+    }, 
+    {
+        "binary": "1101000", 
+        "decimal": 104
+    }, 
+    {
+        "binary": "1101001", 
+        "decimal": 105
+    }, 
+    {
+        "binary": "1101010", 
+        "decimal": 106
+    }, 
+    {
+        "binary": "1101011", 
+        "decimal": 107
+    }, 
+    {
+        "binary": "1101100", 
+        "decimal": 108
+    }, 
+    {
+        "binary": "1101101", 
+        "decimal": 109
+    }, 
+    {
+        "binary": "1101110", 
+        "decimal": 110
+    }, 
+    {
+        "binary": "1101111", 
+        "decimal": 111
+    }, 
+    {
+        "binary": "1110000", 
+        "decimal": 112
+    }, 
+    {
+        "binary": "1110001", 
+        "decimal": 113
+    }, 
+    {
+        "binary": "1110010", 
+        "decimal": 114
+    }, 
+    {
+        "binary": "1110011", 
+        "decimal": 115
+    }, 
+    {
+        "binary": "1110100", 
+        "decimal": 116
+    }, 
+    {
+        "binary": "1110101", 
+        "decimal": 117
+    }, 
+    {
+        "binary": "1110110", 
+        "decimal": 118
+    }, 
+    {
+        "binary": "1110111", 
+        "decimal": 119
+    }, 
+    {
+        "binary": "1111000", 
+        "decimal": 120
+    }, 
+    {
+        "binary": "1111001", 
+        "decimal": 121
+    }, 
+    {
+        "binary": "1111010", 
+        "decimal": 122
+    }, 
+    {
+        "binary": "1111011", 
+        "decimal": 123
+    }, 
+    {
+        "binary": "1111100", 
+        "decimal": 124
+    }, 
+    {
+        "binary": "1111101", 
+        "decimal": 125
+    }, 
+    {
+        "binary": "1111110", 
+        "decimal": 126
+    }, 
+    {
+        "binary": "1111111", 
+        "decimal": 127
+    }, 
+    {
+        "binary": "10000000", 
+        "decimal": 128
+    }, 
+    {
+        "binary": "10000001", 
+        "decimal": 129
+    }, 
+    {
+        "binary": "10000010", 
+        "decimal": 130
+    }, 
+    {
+        "binary": "10000011", 
+        "decimal": 131
+    }, 
+    {
+        "binary": "10000100", 
+        "decimal": 132
+    }, 
+    {
+        "binary": "10000101", 
+        "decimal": 133
+    }, 
+    {
+        "binary": "10000110", 
+        "decimal": 134
+    }, 
+    {
+        "binary": "10000111", 
+        "decimal": 135
+    }, 
+    {
+        "binary": "10001000", 
+        "decimal": 136
+    }, 
+    {
+        "binary": "10001001", 
+        "decimal": 137
+    }, 
+    {
+        "binary": "10001010", 
+        "decimal": 138
+    }, 
+    {
+        "binary": "10001011", 
+        "decimal": 139
+    }, 
+    {
+        "binary": "10001100", 
+        "decimal": 140
+    }, 
+    {
+        "binary": "10001101", 
+        "decimal": 141
+    }, 
+    {
+        "binary": "10001110", 
+        "decimal": 142
+    }, 
+    {
+        "binary": "10001111", 
+        "decimal": 143
+    }, 
+    {
+        "binary": "10010000", 
+        "decimal": 144
+    }, 
+    {
+        "binary": "10010001", 
+        "decimal": 145
+    }, 
+    {
+        "binary": "10010010", 
+        "decimal": 146
+    }, 
+    {
+        "binary": "10010011", 
+        "decimal": 147
+    }, 
+    {
+        "binary": "10010100", 
+        "decimal": 148
+    }, 
+    {
+        "binary": "10010101", 
+        "decimal": 149
+    }, 
+    {
+        "binary": "10010110", 
+        "decimal": 150
+    }, 
+    {
+        "binary": "10010111", 
+        "decimal": 151
+    }, 
+    {
+        "binary": "10011000", 
+        "decimal": 152
+    }, 
+    {
+        "binary": "10011001", 
+        "decimal": 153
+    }, 
+    {
+        "binary": "10011010", 
+        "decimal": 154
+    }, 
+    {
+        "binary": "10011011", 
+        "decimal": 155
+    }, 
+    {
+        "binary": "10011100", 
+        "decimal": 156
+    }, 
+    {
+        "binary": "10011101", 
+        "decimal": 157
+    }, 
+    {
+        "binary": "10011110", 
+        "decimal": 158
+    }, 
+    {
+        "binary": "10011111", 
+        "decimal": 159
+    }, 
+    {
+        "binary": "10100000", 
+        "decimal": 160
+    }, 
+    {
+        "binary": "10100001", 
+        "decimal": 161
+    }, 
+    {
+        "binary": "10100010", 
+        "decimal": 162
+    }, 
+    {
+        "binary": "10100011", 
+        "decimal": 163
+    }, 
+    {
+        "binary": "10100100", 
+        "decimal": 164
+    }, 
+    {
+        "binary": "10100101", 
+        "decimal": 165
+    }, 
+    {
+        "binary": "10100110", 
+        "decimal": 166
+    }, 
+    {
+        "binary": "10100111", 
+        "decimal": 167
+    }, 
+    {
+        "binary": "10101000", 
+        "decimal": 168
+    }, 
+    {
+        "binary": "10101001", 
+        "decimal": 169
+    }, 
+    {
+        "binary": "10101010", 
+        "decimal": 170
+    }, 
+    {
+        "binary": "10101011", 
+        "decimal": 171
+    }, 
+    {
+        "binary": "10101100", 
+        "decimal": 172
+    }, 
+    {
+        "binary": "10101101", 
+        "decimal": 173
+    }, 
+    {
+        "binary": "10101110", 
+        "decimal": 174
+    }, 
+    {
+        "binary": "10101111", 
+        "decimal": 175
+    }, 
+    {
+        "binary": "10110000", 
+        "decimal": 176
+    }, 
+    {
+        "binary": "10110001", 
+        "decimal": 177
+    }, 
+    {
+        "binary": "10110010", 
+        "decimal": 178
+    }, 
+    {
+        "binary": "10110011", 
+        "decimal": 179
+    }, 
+    {
+        "binary": "10110100", 
+        "decimal": 180
+    }, 
+    {
+        "binary": "10110101", 
+        "decimal": 181
+    }, 
+    {
+        "binary": "10110110", 
+        "decimal": 182
+    }, 
+    {
+        "binary": "10110111", 
+        "decimal": 183
+    }, 
+    {
+        "binary": "10111000", 
+        "decimal": 184
+    }, 
+    {
+        "binary": "10111001", 
+        "decimal": 185
+    }, 
+    {
+        "binary": "10111010", 
+        "decimal": 186
+    }, 
+    {
+        "binary": "10111011", 
+        "decimal": 187
+    }, 
+    {
+        "binary": "10111100", 
+        "decimal": 188
+    }, 
+    {
+        "binary": "10111101", 
+        "decimal": 189
+    }, 
+    {
+        "binary": "10111110", 
+        "decimal": 190
+    }, 
+    {
+        "binary": "10111111", 
+        "decimal": 191
+    }, 
+    {
+        "binary": "11000000", 
+        "decimal": 192
+    }, 
+    {
+        "binary": "11000001", 
+        "decimal": 193
+    }, 
+    {
+        "binary": "11000010", 
+        "decimal": 194
+    }, 
+    {
+        "binary": "11000011", 
+        "decimal": 195
+    }, 
+    {
+        "binary": "11000100", 
+        "decimal": 196
+    }, 
+    {
+        "binary": "11000101", 
+        "decimal": 197
+    }, 
+    {
+        "binary": "11000110", 
+        "decimal": 198
+    }, 
+    {
+        "binary": "11000111", 
+        "decimal": 199
+    }, 
+    {
+        "binary": "11001000", 
+        "decimal": 200
+    }, 
+    {
+        "binary": "11001001", 
+        "decimal": 201
+    }, 
+    {
+        "binary": "11001010", 
+        "decimal": 202
+    }, 
+    {
+        "binary": "11001011", 
+        "decimal": 203
+    }, 
+    {
+        "binary": "11001100", 
+        "decimal": 204
+    }, 
+    {
+        "binary": "11001101", 
+        "decimal": 205
+    }, 
+    {
+        "binary": "11001110", 
+        "decimal": 206
+    }, 
+    {
+        "binary": "11001111", 
+        "decimal": 207
+    }, 
+    {
+        "binary": "11010000", 
+        "decimal": 208
+    }, 
+    {
+        "binary": "11010001", 
+        "decimal": 209
+    }, 
+    {
+        "binary": "11010010", 
+        "decimal": 210
+    }, 
+    {
+        "binary": "11010011", 
+        "decimal": 211
+    }, 
+    {
+        "binary": "11010100", 
+        "decimal": 212
+    }, 
+    {
+        "binary": "11010101", 
+        "decimal": 213
+    }, 
+    {
+        "binary": "11010110", 
+        "decimal": 214
+    }, 
+    {
+        "binary": "11010111", 
+        "decimal": 215
+    }, 
+    {
+        "binary": "11011000", 
+        "decimal": 216
+    }, 
+    {
+        "binary": "11011001", 
+        "decimal": 217
+    }, 
+    {
+        "binary": "11011010", 
+        "decimal": 218
+    }, 
+    {
+        "binary": "11011011", 
+        "decimal": 219
+    }, 
+    {
+        "binary": "11011100", 
+        "decimal": 220
+    }, 
+    {
+        "binary": "11011101", 
+        "decimal": 221
+    }, 
+    {
+        "binary": "11011110", 
+        "decimal": 222
+    }, 
+    {
+        "binary": "11011111", 
+        "decimal": 223
+    }, 
+    {
+        "binary": "11100000", 
+        "decimal": 224
+    }, 
+    {
+        "binary": "11100001", 
+        "decimal": 225
+    }, 
+    {
+        "binary": "11100010", 
+        "decimal": 226
+    }, 
+    {
+        "binary": "11100011", 
+        "decimal": 227
+    }, 
+    {
+        "binary": "11100100", 
+        "decimal": 228
+    }, 
+    {
+        "binary": "11100101", 
+        "decimal": 229
+    }, 
+    {
+        "binary": "11100110", 
+        "decimal": 230
+    }, 
+    {
+        "binary": "11100111", 
+        "decimal": 231
+    }, 
+    {
+        "binary": "11101000", 
+        "decimal": 232
+    }, 
+    {
+        "binary": "11101001", 
+        "decimal": 233
+    }, 
+    {
+        "binary": "11101010", 
+        "decimal": 234
+    }, 
+    {
+        "binary": "11101011", 
+        "decimal": 235
+    }, 
+    {
+        "binary": "11101100", 
+        "decimal": 236
+    }, 
+    {
+        "binary": "11101101", 
+        "decimal": 237
+    }, 
+    {
+        "binary": "11101110", 
+        "decimal": 238
+    }, 
+    {
+        "binary": "11101111", 
+        "decimal": 239
+    }, 
+    {
+        "binary": "11110000", 
+        "decimal": 240
+    }, 
+    {
+        "binary": "11110001", 
+        "decimal": 241
+    }, 
+    {
+        "binary": "11110010", 
+        "decimal": 242
+    }, 
+    {
+        "binary": "11110011", 
+        "decimal": 243
+    }, 
+    {
+        "binary": "11110100", 
+        "decimal": 244
+    }, 
+    {
+        "binary": "11110101", 
+        "decimal": 245
+    }, 
+    {
+        "binary": "11110110", 
+        "decimal": 246
+    }, 
+    {
+        "binary": "11110111", 
+        "decimal": 247
+    }, 
+    {
+        "binary": "11111000", 
+        "decimal": 248
+    }, 
+    {
+        "binary": "11111001", 
+        "decimal": 249
+    }, 
+    {
+        "binary": "11111010", 
+        "decimal": 250
+    }, 
+    {
+        "binary": "11111011", 
+        "decimal": 251
+    }, 
+    {
+        "binary": "11111100", 
+        "decimal": 252
+    }, 
+    {
+        "binary": "11111101", 
+        "decimal": 253
+    }, 
+    {
+        "binary": "11111110", 
+        "decimal": 254
+    }, 
+    {
+        "binary": "11111111", 
+        "decimal": 255
+    }, 
+    {
+        "binary": "100000000", 
+        "decimal": 256
+    }, 
+    {
+        "binary": "100000001", 
+        "decimal": 257
+    }, 
+    {
+        "binary": "100000010", 
+        "decimal": 258
+    }, 
+    {
+        "binary": "100000011", 
+        "decimal": 259
+    }, 
+    {
+        "binary": "100000100", 
+        "decimal": 260
+    }, 
+    {
+        "binary": "100000101", 
+        "decimal": 261
+    }, 
+    {
+        "binary": "100000110", 
+        "decimal": 262
+    }, 
+    {
+        "binary": "100000111", 
+        "decimal": 263
+    }, 
+    {
+        "binary": "100001000", 
+        "decimal": 264
+    }, 
+    {
+        "binary": "100001001", 
+        "decimal": 265
+    }, 
+    {
+        "binary": "100001010", 
+        "decimal": 266
+    }, 
+    {
+        "binary": "100001011", 
+        "decimal": 267
+    }, 
+    {
+        "binary": "100001100", 
+        "decimal": 268
+    }, 
+    {
+        "binary": "100001101", 
+        "decimal": 269
+    }, 
+    {
+        "binary": "100001110", 
+        "decimal": 270
+    }, 
+    {
+        "binary": "100001111", 
+        "decimal": 271
+    }, 
+    {
+        "binary": "100010000", 
+        "decimal": 272
+    }, 
+    {
+        "binary": "100010001", 
+        "decimal": 273
+    }, 
+    {
+        "binary": "100010010", 
+        "decimal": 274
+    }, 
+    {
+        "binary": "100010011", 
+        "decimal": 275
+    }, 
+    {
+        "binary": "100010100", 
+        "decimal": 276
+    }, 
+    {
+        "binary": "100010101", 
+        "decimal": 277
+    }, 
+    {
+        "binary": "100010110", 
+        "decimal": 278
+    }, 
+    {
+        "binary": "100010111", 
+        "decimal": 279
+    }, 
+    {
+        "binary": "100011000", 
+        "decimal": 280
+    }, 
+    {
+        "binary": "100011001", 
+        "decimal": 281
+    }, 
+    {
+        "binary": "100011010", 
+        "decimal": 282
+    }, 
+    {
+        "binary": "100011011", 
+        "decimal": 283
+    }, 
+    {
+        "binary": "100011100", 
+        "decimal": 284
+    }, 
+    {
+        "binary": "100011101", 
+        "decimal": 285
+    }, 
+    {
+        "binary": "100011110", 
+        "decimal": 286
+    }, 
+    {
+        "binary": "100011111", 
+        "decimal": 287
+    }, 
+    {
+        "binary": "100100000", 
+        "decimal": 288
+    }, 
+    {
+        "binary": "100100001", 
+        "decimal": 289
+    }, 
+    {
+        "binary": "100100010", 
+        "decimal": 290
+    }, 
+    {
+        "binary": "100100011", 
+        "decimal": 291
+    }, 
+    {
+        "binary": "100100100", 
+        "decimal": 292
+    }, 
+    {
+        "binary": "100100101", 
+        "decimal": 293
+    }, 
+    {
+        "binary": "100100110", 
+        "decimal": 294
+    }, 
+    {
+        "binary": "100100111", 
+        "decimal": 295
+    }, 
+    {
+        "binary": "100101000", 
+        "decimal": 296
+    }, 
+    {
+        "binary": "100101001", 
+        "decimal": 297
+    }, 
+    {
+        "binary": "100101010", 
+        "decimal": 298
+    }, 
+    {
+        "binary": "100101011", 
+        "decimal": 299
+    }, 
+    {
+        "binary": "100101100", 
+        "decimal": 300
+    }, 
+    {
+        "binary": "100101101", 
+        "decimal": 301
+    }, 
+    {
+        "binary": "100101110", 
+        "decimal": 302
+    }, 
+    {
+        "binary": "100101111", 
+        "decimal": 303
+    }, 
+    {
+        "binary": "100110000", 
+        "decimal": 304
+    }, 
+    {
+        "binary": "100110001", 
+        "decimal": 305
+    }, 
+    {
+        "binary": "100110010", 
+        "decimal": 306
+    }, 
+    {
+        "binary": "100110011", 
+        "decimal": 307
+    }, 
+    {
+        "binary": "100110100", 
+        "decimal": 308
+    }, 
+    {
+        "binary": "100110101", 
+        "decimal": 309
+    }, 
+    {
+        "binary": "100110110", 
+        "decimal": 310
+    }, 
+    {
+        "binary": "100110111", 
+        "decimal": 311
+    }, 
+    {
+        "binary": "100111000", 
+        "decimal": 312
+    }, 
+    {
+        "binary": "100111001", 
+        "decimal": 313
+    }, 
+    {
+        "binary": "100111010", 
+        "decimal": 314
+    }, 
+    {
+        "binary": "100111011", 
+        "decimal": 315
+    }, 
+    {
+        "binary": "100111100", 
+        "decimal": 316
+    }, 
+    {
+        "binary": "100111101", 
+        "decimal": 317
+    }, 
+    {
+        "binary": "100111110", 
+        "decimal": 318
+    }, 
+    {
+        "binary": "100111111", 
+        "decimal": 319
+    }, 
+    {
+        "binary": "101000000", 
+        "decimal": 320
+    }, 
+    {
+        "binary": "101000001", 
+        "decimal": 321
+    }, 
+    {
+        "binary": "101000010", 
+        "decimal": 322
+    }, 
+    {
+        "binary": "101000011", 
+        "decimal": 323
+    }, 
+    {
+        "binary": "101000100", 
+        "decimal": 324
+    }, 
+    {
+        "binary": "101000101", 
+        "decimal": 325
+    }, 
+    {
+        "binary": "101000110", 
+        "decimal": 326
+    }, 
+    {
+        "binary": "101000111", 
+        "decimal": 327
+    }, 
+    {
+        "binary": "101001000", 
+        "decimal": 328
+    }, 
+    {
+        "binary": "101001001", 
+        "decimal": 329
+    }, 
+    {
+        "binary": "101001010", 
+        "decimal": 330
+    }, 
+    {
+        "binary": "101001011", 
+        "decimal": 331
+    }, 
+    {
+        "binary": "101001100", 
+        "decimal": 332
+    }, 
+    {
+        "binary": "101001101", 
+        "decimal": 333
+    }, 
+    {
+        "binary": "101001110", 
+        "decimal": 334
+    }, 
+    {
+        "binary": "101001111", 
+        "decimal": 335
+    }, 
+    {
+        "binary": "101010000", 
+        "decimal": 336
+    }, 
+    {
+        "binary": "101010001", 
+        "decimal": 337
+    }, 
+    {
+        "binary": "101010010", 
+        "decimal": 338
+    }, 
+    {
+        "binary": "101010011", 
+        "decimal": 339
+    }, 
+    {
+        "binary": "101010100", 
+        "decimal": 340
+    }, 
+    {
+        "binary": "101010101", 
+        "decimal": 341
+    }, 
+    {
+        "binary": "101010110", 
+        "decimal": 342
+    }, 
+    {
+        "binary": "101010111", 
+        "decimal": 343
+    }, 
+    {
+        "binary": "101011000", 
+        "decimal": 344
+    }, 
+    {
+        "binary": "101011001", 
+        "decimal": 345
+    }, 
+    {
+        "binary": "101011010", 
+        "decimal": 346
+    }, 
+    {
+        "binary": "101011011", 
+        "decimal": 347
+    }, 
+    {
+        "binary": "101011100", 
+        "decimal": 348
+    }, 
+    {
+        "binary": "101011101", 
+        "decimal": 349
+    }, 
+    {
+        "binary": "101011110", 
+        "decimal": 350
+    }, 
+    {
+        "binary": "101011111", 
+        "decimal": 351
+    }, 
+    {
+        "binary": "101100000", 
+        "decimal": 352
+    }, 
+    {
+        "binary": "101100001", 
+        "decimal": 353
+    }, 
+    {
+        "binary": "101100010", 
+        "decimal": 354
+    }, 
+    {
+        "binary": "101100011", 
+        "decimal": 355
+    }, 
+    {
+        "binary": "101100100", 
+        "decimal": 356
+    }, 
+    {
+        "binary": "101100101", 
+        "decimal": 357
+    }, 
+    {
+        "binary": "101100110", 
+        "decimal": 358
+    }, 
+    {
+        "binary": "101100111", 
+        "decimal": 359
+    }, 
+    {
+        "binary": "101101000", 
+        "decimal": 360
+    }, 
+    {
+        "binary": "101101001", 
+        "decimal": 361
+    }, 
+    {
+        "binary": "101101010", 
+        "decimal": 362
+    }, 
+    {
+        "binary": "101101011", 
+        "decimal": 363
+    }, 
+    {
+        "binary": "101101100", 
+        "decimal": 364
+    }, 
+    {
+        "binary": "101101101", 
+        "decimal": 365
+    }, 
+    {
+        "binary": "101101110", 
+        "decimal": 366
+    }, 
+    {
+        "binary": "101101111", 
+        "decimal": 367
+    }, 
+    {
+        "binary": "101110000", 
+        "decimal": 368
+    }, 
+    {
+        "binary": "101110001", 
+        "decimal": 369
+    }, 
+    {
+        "binary": "101110010", 
+        "decimal": 370
+    }, 
+    {
+        "binary": "101110011", 
+        "decimal": 371
+    }, 
+    {
+        "binary": "101110100", 
+        "decimal": 372
+    }, 
+    {
+        "binary": "101110101", 
+        "decimal": 373
+    }, 
+    {
+        "binary": "101110110", 
+        "decimal": 374
+    }, 
+    {
+        "binary": "101110111", 
+        "decimal": 375
+    }, 
+    {
+        "binary": "101111000", 
+        "decimal": 376
+    }, 
+    {
+        "binary": "101111001", 
+        "decimal": 377
+    }, 
+    {
+        "binary": "101111010", 
+        "decimal": 378
+    }, 
+    {
+        "binary": "101111011", 
+        "decimal": 379
+    }, 
+    {
+        "binary": "101111100", 
+        "decimal": 380
+    }, 
+    {
+        "binary": "101111101", 
+        "decimal": 381
+    }, 
+    {
+        "binary": "101111110", 
+        "decimal": 382
+    }, 
+    {
+        "binary": "101111111", 
+        "decimal": 383
+    }, 
+    {
+        "binary": "110000000", 
+        "decimal": 384
+    }, 
+    {
+        "binary": "110000001", 
+        "decimal": 385
+    }, 
+    {
+        "binary": "110000010", 
+        "decimal": 386
+    }, 
+    {
+        "binary": "110000011", 
+        "decimal": 387
+    }, 
+    {
+        "binary": "110000100", 
+        "decimal": 388
+    }, 
+    {
+        "binary": "110000101", 
+        "decimal": 389
+    }, 
+    {
+        "binary": "110000110", 
+        "decimal": 390
+    }, 
+    {
+        "binary": "110000111", 
+        "decimal": 391
+    }, 
+    {
+        "binary": "110001000", 
+        "decimal": 392
+    }, 
+    {
+        "binary": "110001001", 
+        "decimal": 393
+    }, 
+    {
+        "binary": "110001010", 
+        "decimal": 394
+    }, 
+    {
+        "binary": "110001011", 
+        "decimal": 395
+    }, 
+    {
+        "binary": "110001100", 
+        "decimal": 396
+    }, 
+    {
+        "binary": "110001101", 
+        "decimal": 397
+    }, 
+    {
+        "binary": "110001110", 
+        "decimal": 398
+    }, 
+    {
+        "binary": "110001111", 
+        "decimal": 399
+    }, 
+    {
+        "binary": "110010000", 
+        "decimal": 400
+    }, 
+    {
+        "binary": "110010001", 
+        "decimal": 401
+    }, 
+    {
+        "binary": "110010010", 
+        "decimal": 402
+    }, 
+    {
+        "binary": "110010011", 
+        "decimal": 403
+    }, 
+    {
+        "binary": "110010100", 
+        "decimal": 404
+    }, 
+    {
+        "binary": "110010101", 
+        "decimal": 405
+    }, 
+    {
+        "binary": "110010110", 
+        "decimal": 406
+    }, 
+    {
+        "binary": "110010111", 
+        "decimal": 407
+    }, 
+    {
+        "binary": "110011000", 
+        "decimal": 408
+    }, 
+    {
+        "binary": "110011001", 
+        "decimal": 409
+    }, 
+    {
+        "binary": "110011010", 
+        "decimal": 410
+    }, 
+    {
+        "binary": "110011011", 
+        "decimal": 411
+    }, 
+    {
+        "binary": "110011100", 
+        "decimal": 412
+    }, 
+    {
+        "binary": "110011101", 
+        "decimal": 413
+    }, 
+    {
+        "binary": "110011110", 
+        "decimal": 414
+    }, 
+    {
+        "binary": "110011111", 
+        "decimal": 415
+    }, 
+    {
+        "binary": "110100000", 
+        "decimal": 416
+    }, 
+    {
+        "binary": "110100001", 
+        "decimal": 417
+    }, 
+    {
+        "binary": "110100010", 
+        "decimal": 418
+    }, 
+    {
+        "binary": "110100011", 
+        "decimal": 419
+    }, 
+    {
+        "binary": "110100100", 
+        "decimal": 420
+    }, 
+    {
+        "binary": "110100101", 
+        "decimal": 421
+    }, 
+    {
+        "binary": "110100110", 
+        "decimal": 422
+    }, 
+    {
+        "binary": "110100111", 
+        "decimal": 423
+    }, 
+    {
+        "binary": "110101000", 
+        "decimal": 424
+    }, 
+    {
+        "binary": "110101001", 
+        "decimal": 425
+    }, 
+    {
+        "binary": "110101010", 
+        "decimal": 426
+    }, 
+    {
+        "binary": "110101011", 
+        "decimal": 427
+    }, 
+    {
+        "binary": "110101100", 
+        "decimal": 428
+    }, 
+    {
+        "binary": "110101101", 
+        "decimal": 429
+    }, 
+    {
+        "binary": "110101110", 
+        "decimal": 430
+    }, 
+    {
+        "binary": "110101111", 
+        "decimal": 431
+    }, 
+    {
+        "binary": "110110000", 
+        "decimal": 432
+    }, 
+    {
+        "binary": "110110001", 
+        "decimal": 433
+    }, 
+    {
+        "binary": "110110010", 
+        "decimal": 434
+    }, 
+    {
+        "binary": "110110011", 
+        "decimal": 435
+    }, 
+    {
+        "binary": "110110100", 
+        "decimal": 436
+    }, 
+    {
+        "binary": "110110101", 
+        "decimal": 437
+    }, 
+    {
+        "binary": "110110110", 
+        "decimal": 438
+    }, 
+    {
+        "binary": "110110111", 
+        "decimal": 439
+    }, 
+    {
+        "binary": "110111000", 
+        "decimal": 440
+    }, 
+    {
+        "binary": "110111001", 
+        "decimal": 441
+    }, 
+    {
+        "binary": "110111010", 
+        "decimal": 442
+    }, 
+    {
+        "binary": "110111011", 
+        "decimal": 443
+    }, 
+    {
+        "binary": "110111100", 
+        "decimal": 444
+    }, 
+    {
+        "binary": "110111101", 
+        "decimal": 445
+    }, 
+    {
+        "binary": "110111110", 
+        "decimal": 446
+    }, 
+    {
+        "binary": "110111111", 
+        "decimal": 447
+    }, 
+    {
+        "binary": "111000000", 
+        "decimal": 448
+    }, 
+    {
+        "binary": "111000001", 
+        "decimal": 449
+    }, 
+    {
+        "binary": "111000010", 
+        "decimal": 450
+    }, 
+    {
+        "binary": "111000011", 
+        "decimal": 451
+    }, 
+    {
+        "binary": "111000100", 
+        "decimal": 452
+    }, 
+    {
+        "binary": "111000101", 
+        "decimal": 453
+    }, 
+    {
+        "binary": "111000110", 
+        "decimal": 454
+    }, 
+    {
+        "binary": "111000111", 
+        "decimal": 455
+    }, 
+    {
+        "binary": "111001000", 
+        "decimal": 456
+    }, 
+    {
+        "binary": "111001001", 
+        "decimal": 457
+    }, 
+    {
+        "binary": "111001010", 
+        "decimal": 458
+    }, 
+    {
+        "binary": "111001011", 
+        "decimal": 459
+    }, 
+    {
+        "binary": "111001100", 
+        "decimal": 460
+    }, 
+    {
+        "binary": "111001101", 
+        "decimal": 461
+    }, 
+    {
+        "binary": "111001110", 
+        "decimal": 462
+    }, 
+    {
+        "binary": "111001111", 
+        "decimal": 463
+    }, 
+    {
+        "binary": "111010000", 
+        "decimal": 464
+    }, 
+    {
+        "binary": "111010001", 
+        "decimal": 465
+    }, 
+    {
+        "binary": "111010010", 
+        "decimal": 466
+    }, 
+    {
+        "binary": "111010011", 
+        "decimal": 467
+    }, 
+    {
+        "binary": "111010100", 
+        "decimal": 468
+    }, 
+    {
+        "binary": "111010101", 
+        "decimal": 469
+    }, 
+    {
+        "binary": "111010110", 
+        "decimal": 470
+    }, 
+    {
+        "binary": "111010111", 
+        "decimal": 471
+    }, 
+    {
+        "binary": "111011000", 
+        "decimal": 472
+    }, 
+    {
+        "binary": "111011001", 
+        "decimal": 473
+    }, 
+    {
+        "binary": "111011010", 
+        "decimal": 474
+    }, 
+    {
+        "binary": "111011011", 
+        "decimal": 475
+    }, 
+    {
+        "binary": "111011100", 
+        "decimal": 476
+    }, 
+    {
+        "binary": "111011101", 
+        "decimal": 477
+    }, 
+    {
+        "binary": "111011110", 
+        "decimal": 478
+    }, 
+    {
+        "binary": "111011111", 
+        "decimal": 479
+    }, 
+    {
+        "binary": "111100000", 
+        "decimal": 480
+    }, 
+    {
+        "binary": "111100001", 
+        "decimal": 481
+    }, 
+    {
+        "binary": "111100010", 
+        "decimal": 482
+    }, 
+    {
+        "binary": "111100011", 
+        "decimal": 483
+    }, 
+    {
+        "binary": "111100100", 
+        "decimal": 484
+    }, 
+    {
+        "binary": "111100101", 
+        "decimal": 485
+    }, 
+    {
+        "binary": "111100110", 
+        "decimal": 486
+    }, 
+    {
+        "binary": "111100111", 
+        "decimal": 487
+    }, 
+    {
+        "binary": "111101000", 
+        "decimal": 488
+    }, 
+    {
+        "binary": "111101001", 
+        "decimal": 489
+    }, 
+    {
+        "binary": "111101010", 
+        "decimal": 490
+    }, 
+    {
+        "binary": "111101011", 
+        "decimal": 491
+    }, 
+    {
+        "binary": "111101100", 
+        "decimal": 492
+    }, 
+    {
+        "binary": "111101101", 
+        "decimal": 493
+    }, 
+    {
+        "binary": "111101110", 
+        "decimal": 494
+    }, 
+    {
+        "binary": "111101111", 
+        "decimal": 495
+    }, 
+    {
+        "binary": "111110000", 
+        "decimal": 496
+    }, 
+    {
+        "binary": "111110001", 
+        "decimal": 497
+    }, 
+    {
+        "binary": "111110010", 
+        "decimal": 498
+    }, 
+    {
+        "binary": "111110011", 
+        "decimal": 499
+    }, 
+    {
+        "binary": "111110100", 
+        "decimal": 500
+    }, 
+    {
+        "binary": "111110101", 
+        "decimal": 501
+    }, 
+    {
+        "binary": "111110110", 
+        "decimal": 502
+    }, 
+    {
+        "binary": "111110111", 
+        "decimal": 503
+    }, 
+    {
+        "binary": "111111000", 
+        "decimal": 504
+    }, 
+    {
+        "binary": "111111001", 
+        "decimal": 505
+    }, 
+    {
+        "binary": "111111010", 
+        "decimal": 506
+    }, 
+    {
+        "binary": "111111011", 
+        "decimal": 507
+    }, 
+    {
+        "binary": "111111100", 
+        "decimal": 508
+    }, 
+    {
+        "binary": "111111101", 
+        "decimal": 509
+    }, 
+    {
+        "binary": "111111110", 
+        "decimal": 510
+    }, 
+    {
+        "binary": "111111111", 
+        "decimal": 511
+    }, 
+    {
+        "binary": "1000000000", 
+        "decimal": 512
+    }, 
+    {
+        "binary": "1000000001", 
+        "decimal": 513
+    }, 
+    {
+        "binary": "1000000010", 
+        "decimal": 514
+    }, 
+    {
+        "binary": "1000000011", 
+        "decimal": 515
+    }, 
+    {
+        "binary": "1000000100", 
+        "decimal": 516
+    }, 
+    {
+        "binary": "1000000101", 
+        "decimal": 517
+    }, 
+    {
+        "binary": "1000000110", 
+        "decimal": 518
+    }, 
+    {
+        "binary": "1000000111", 
+        "decimal": 519
+    }, 
+    {
+        "binary": "1000001000", 
+        "decimal": 520
+    }, 
+    {
+        "binary": "1000001001", 
+        "decimal": 521
+    }, 
+    {
+        "binary": "1000001010", 
+        "decimal": 522
+    }, 
+    {
+        "binary": "1000001011", 
+        "decimal": 523
+    }, 
+    {
+        "binary": "1000001100", 
+        "decimal": 524
+    }, 
+    {
+        "binary": "1000001101", 
+        "decimal": 525
+    }, 
+    {
+        "binary": "1000001110", 
+        "decimal": 526
+    }, 
+    {
+        "binary": "1000001111", 
+        "decimal": 527
+    }, 
+    {
+        "binary": "1000010000", 
+        "decimal": 528
+    }, 
+    {
+        "binary": "1000010001", 
+        "decimal": 529
+    }, 
+    {
+        "binary": "1000010010", 
+        "decimal": 530
+    }, 
+    {
+        "binary": "1000010011", 
+        "decimal": 531
+    }, 
+    {
+        "binary": "1000010100", 
+        "decimal": 532
+    }, 
+    {
+        "binary": "1000010101", 
+        "decimal": 533
+    }, 
+    {
+        "binary": "1000010110", 
+        "decimal": 534
+    }, 
+    {
+        "binary": "1000010111", 
+        "decimal": 535
+    }, 
+    {
+        "binary": "1000011000", 
+        "decimal": 536
+    }, 
+    {
+        "binary": "1000011001", 
+        "decimal": 537
+    }, 
+    {
+        "binary": "1000011010", 
+        "decimal": 538
+    }, 
+    {
+        "binary": "1000011011", 
+        "decimal": 539
+    }, 
+    {
+        "binary": "1000011100", 
+        "decimal": 540
+    }, 
+    {
+        "binary": "1000011101", 
+        "decimal": 541
+    }, 
+    {
+        "binary": "1000011110", 
+        "decimal": 542
+    }, 
+    {
+        "binary": "1000011111", 
+        "decimal": 543
+    }, 
+    {
+        "binary": "1000100000", 
+        "decimal": 544
+    }, 
+    {
+        "binary": "1000100001", 
+        "decimal": 545
+    }, 
+    {
+        "binary": "1000100010", 
+        "decimal": 546
+    }, 
+    {
+        "binary": "1000100011", 
+        "decimal": 547
+    }, 
+    {
+        "binary": "1000100100", 
+        "decimal": 548
+    }, 
+    {
+        "binary": "1000100101", 
+        "decimal": 549
+    }, 
+    {
+        "binary": "1000100110", 
+        "decimal": 550
+    }, 
+    {
+        "binary": "1000100111", 
+        "decimal": 551
+    }, 
+    {
+        "binary": "1000101000", 
+        "decimal": 552
+    }, 
+    {
+        "binary": "1000101001", 
+        "decimal": 553
+    }, 
+    {
+        "binary": "1000101010", 
+        "decimal": 554
+    }, 
+    {
+        "binary": "1000101011", 
+        "decimal": 555
+    }, 
+    {
+        "binary": "1000101100", 
+        "decimal": 556
+    }, 
+    {
+        "binary": "1000101101", 
+        "decimal": 557
+    }, 
+    {
+        "binary": "1000101110", 
+        "decimal": 558
+    }, 
+    {
+        "binary": "1000101111", 
+        "decimal": 559
+    }, 
+    {
+        "binary": "1000110000", 
+        "decimal": 560
+    }, 
+    {
+        "binary": "1000110001", 
+        "decimal": 561
+    }, 
+    {
+        "binary": "1000110010", 
+        "decimal": 562
+    }, 
+    {
+        "binary": "1000110011", 
+        "decimal": 563
+    }, 
+    {
+        "binary": "1000110100", 
+        "decimal": 564
+    }, 
+    {
+        "binary": "1000110101", 
+        "decimal": 565
+    }, 
+    {
+        "binary": "1000110110", 
+        "decimal": 566
+    }, 
+    {
+        "binary": "1000110111", 
+        "decimal": 567
+    }, 
+    {
+        "binary": "1000111000", 
+        "decimal": 568
+    }, 
+    {
+        "binary": "1000111001", 
+        "decimal": 569
+    }, 
+    {
+        "binary": "1000111010", 
+        "decimal": 570
+    }, 
+    {
+        "binary": "1000111011", 
+        "decimal": 571
+    }, 
+    {
+        "binary": "1000111100", 
+        "decimal": 572
+    }, 
+    {
+        "binary": "1000111101", 
+        "decimal": 573
+    }, 
+    {
+        "binary": "1000111110", 
+        "decimal": 574
+    }, 
+    {
+        "binary": "1000111111", 
+        "decimal": 575
+    }, 
+    {
+        "binary": "1001000000", 
+        "decimal": 576
+    }, 
+    {
+        "binary": "1001000001", 
+        "decimal": 577
+    }, 
+    {
+        "binary": "1001000010", 
+        "decimal": 578
+    }, 
+    {
+        "binary": "1001000011", 
+        "decimal": 579
+    }, 
+    {
+        "binary": "1001000100", 
+        "decimal": 580
+    }, 
+    {
+        "binary": "1001000101", 
+        "decimal": 581
+    }, 
+    {
+        "binary": "1001000110", 
+        "decimal": 582
+    }, 
+    {
+        "binary": "1001000111", 
+        "decimal": 583
+    }, 
+    {
+        "binary": "1001001000", 
+        "decimal": 584
+    }, 
+    {
+        "binary": "1001001001", 
+        "decimal": 585
+    }, 
+    {
+        "binary": "1001001010", 
+        "decimal": 586
+    }, 
+    {
+        "binary": "1001001011", 
+        "decimal": 587
+    }, 
+    {
+        "binary": "1001001100", 
+        "decimal": 588
+    }, 
+    {
+        "binary": "1001001101", 
+        "decimal": 589
+    }, 
+    {
+        "binary": "1001001110", 
+        "decimal": 590
+    }, 
+    {
+        "binary": "1001001111", 
+        "decimal": 591
+    }, 
+    {
+        "binary": "1001010000", 
+        "decimal": 592
+    }, 
+    {
+        "binary": "1001010001", 
+        "decimal": 593
+    }, 
+    {
+        "binary": "1001010010", 
+        "decimal": 594
+    }, 
+    {
+        "binary": "1001010011", 
+        "decimal": 595
+    }, 
+    {
+        "binary": "1001010100", 
+        "decimal": 596
+    }, 
+    {
+        "binary": "1001010101", 
+        "decimal": 597
+    }, 
+    {
+        "binary": "1001010110", 
+        "decimal": 598
+    }, 
+    {
+        "binary": "1001010111", 
+        "decimal": 599
+    }, 
+    {
+        "binary": "1001011000", 
+        "decimal": 600
+    }, 
+    {
+        "binary": "1001011001", 
+        "decimal": 601
+    }, 
+    {
+        "binary": "1001011010", 
+        "decimal": 602
+    }, 
+    {
+        "binary": "1001011011", 
+        "decimal": 603
+    }, 
+    {
+        "binary": "1001011100", 
+        "decimal": 604
+    }, 
+    {
+        "binary": "1001011101", 
+        "decimal": 605
+    }, 
+    {
+        "binary": "1001011110", 
+        "decimal": 606
+    }, 
+    {
+        "binary": "1001011111", 
+        "decimal": 607
+    }, 
+    {
+        "binary": "1001100000", 
+        "decimal": 608
+    }, 
+    {
+        "binary": "1001100001", 
+        "decimal": 609
+    }, 
+    {
+        "binary": "1001100010", 
+        "decimal": 610
+    }, 
+    {
+        "binary": "1001100011", 
+        "decimal": 611
+    }, 
+    {
+        "binary": "1001100100", 
+        "decimal": 612
+    }, 
+    {
+        "binary": "1001100101", 
+        "decimal": 613
+    }, 
+    {
+        "binary": "1001100110", 
+        "decimal": 614
+    }, 
+    {
+        "binary": "1001100111", 
+        "decimal": 615
+    }, 
+    {
+        "binary": "1001101000", 
+        "decimal": 616
+    }, 
+    {
+        "binary": "1001101001", 
+        "decimal": 617
+    }, 
+    {
+        "binary": "1001101010", 
+        "decimal": 618
+    }, 
+    {
+        "binary": "1001101011", 
+        "decimal": 619
+    }, 
+    {
+        "binary": "1001101100", 
+        "decimal": 620
+    }, 
+    {
+        "binary": "1001101101", 
+        "decimal": 621
+    }, 
+    {
+        "binary": "1001101110", 
+        "decimal": 622
+    }, 
+    {
+        "binary": "1001101111", 
+        "decimal": 623
+    }, 
+    {
+        "binary": "1001110000", 
+        "decimal": 624
+    }, 
+    {
+        "binary": "1001110001", 
+        "decimal": 625
+    }, 
+    {
+        "binary": "1001110010", 
+        "decimal": 626
+    }, 
+    {
+        "binary": "1001110011", 
+        "decimal": 627
+    }, 
+    {
+        "binary": "1001110100", 
+        "decimal": 628
+    }, 
+    {
+        "binary": "1001110101", 
+        "decimal": 629
+    }, 
+    {
+        "binary": "1001110110", 
+        "decimal": 630
+    }, 
+    {
+        "binary": "1001110111", 
+        "decimal": 631
+    }, 
+    {
+        "binary": "1001111000", 
+        "decimal": 632
+    }, 
+    {
+        "binary": "1001111001", 
+        "decimal": 633
+    }, 
+    {
+        "binary": "1001111010", 
+        "decimal": 634
+    }, 
+    {
+        "binary": "1001111011", 
+        "decimal": 635
+    }, 
+    {
+        "binary": "1001111100", 
+        "decimal": 636
+    }, 
+    {
+        "binary": "1001111101", 
+        "decimal": 637
+    }, 
+    {
+        "binary": "1001111110", 
+        "decimal": 638
+    }, 
+    {
+        "binary": "1001111111", 
+        "decimal": 639
+    }, 
+    {
+        "binary": "1010000000", 
+        "decimal": 640
+    }, 
+    {
+        "binary": "1010000001", 
+        "decimal": 641
+    }, 
+    {
+        "binary": "1010000010", 
+        "decimal": 642
+    }, 
+    {
+        "binary": "1010000011", 
+        "decimal": 643
+    }, 
+    {
+        "binary": "1010000100", 
+        "decimal": 644
+    }, 
+    {
+        "binary": "1010000101", 
+        "decimal": 645
+    }, 
+    {
+        "binary": "1010000110", 
+        "decimal": 646
+    }, 
+    {
+        "binary": "1010000111", 
+        "decimal": 647
+    }, 
+    {
+        "binary": "1010001000", 
+        "decimal": 648
+    }, 
+    {
+        "binary": "1010001001", 
+        "decimal": 649
+    }, 
+    {
+        "binary": "1010001010", 
+        "decimal": 650
+    }, 
+    {
+        "binary": "1010001011", 
+        "decimal": 651
+    }, 
+    {
+        "binary": "1010001100", 
+        "decimal": 652
+    }, 
+    {
+        "binary": "1010001101", 
+        "decimal": 653
+    }, 
+    {
+        "binary": "1010001110", 
+        "decimal": 654
+    }, 
+    {
+        "binary": "1010001111", 
+        "decimal": 655
+    }, 
+    {
+        "binary": "1010010000", 
+        "decimal": 656
+    }, 
+    {
+        "binary": "1010010001", 
+        "decimal": 657
+    }, 
+    {
+        "binary": "1010010010", 
+        "decimal": 658
+    }, 
+    {
+        "binary": "1010010011", 
+        "decimal": 659
+    }, 
+    {
+        "binary": "1010010100", 
+        "decimal": 660
+    }, 
+    {
+        "binary": "1010010101", 
+        "decimal": 661
+    }, 
+    {
+        "binary": "1010010110", 
+        "decimal": 662
+    }, 
+    {
+        "binary": "1010010111", 
+        "decimal": 663
+    }, 
+    {
+        "binary": "1010011000", 
+        "decimal": 664
+    }, 
+    {
+        "binary": "1010011001", 
+        "decimal": 665
+    }, 
+    {
+        "binary": "1010011010", 
+        "decimal": 666
+    }, 
+    {
+        "binary": "1010011011", 
+        "decimal": 667
+    }, 
+    {
+        "binary": "1010011100", 
+        "decimal": 668
+    }, 
+    {
+        "binary": "1010011101", 
+        "decimal": 669
+    }, 
+    {
+        "binary": "1010011110", 
+        "decimal": 670
+    }, 
+    {
+        "binary": "1010011111", 
+        "decimal": 671
+    }, 
+    {
+        "binary": "1010100000", 
+        "decimal": 672
+    }, 
+    {
+        "binary": "1010100001", 
+        "decimal": 673
+    }, 
+    {
+        "binary": "1010100010", 
+        "decimal": 674
+    }, 
+    {
+        "binary": "1010100011", 
+        "decimal": 675
+    }, 
+    {
+        "binary": "1010100100", 
+        "decimal": 676
+    }, 
+    {
+        "binary": "1010100101", 
+        "decimal": 677
+    }, 
+    {
+        "binary": "1010100110", 
+        "decimal": 678
+    }, 
+    {
+        "binary": "1010100111", 
+        "decimal": 679
+    }, 
+    {
+        "binary": "1010101000", 
+        "decimal": 680
+    }, 
+    {
+        "binary": "1010101001", 
+        "decimal": 681
+    }, 
+    {
+        "binary": "1010101010", 
+        "decimal": 682
+    }, 
+    {
+        "binary": "1010101011", 
+        "decimal": 683
+    }, 
+    {
+        "binary": "1010101100", 
+        "decimal": 684
+    }, 
+    {
+        "binary": "1010101101", 
+        "decimal": 685
+    }, 
+    {
+        "binary": "1010101110", 
+        "decimal": 686
+    }, 
+    {
+        "binary": "1010101111", 
+        "decimal": 687
+    }, 
+    {
+        "binary": "1010110000", 
+        "decimal": 688
+    }, 
+    {
+        "binary": "1010110001", 
+        "decimal": 689
+    }, 
+    {
+        "binary": "1010110010", 
+        "decimal": 690
+    }, 
+    {
+        "binary": "1010110011", 
+        "decimal": 691
+    }, 
+    {
+        "binary": "1010110100", 
+        "decimal": 692
+    }, 
+    {
+        "binary": "1010110101", 
+        "decimal": 693
+    }, 
+    {
+        "binary": "1010110110", 
+        "decimal": 694
+    }, 
+    {
+        "binary": "1010110111", 
+        "decimal": 695
+    }, 
+    {
+        "binary": "1010111000", 
+        "decimal": 696
+    }, 
+    {
+        "binary": "1010111001", 
+        "decimal": 697
+    }, 
+    {
+        "binary": "1010111010", 
+        "decimal": 698
+    }, 
+    {
+        "binary": "1010111011", 
+        "decimal": 699
+    }, 
+    {
+        "binary": "1010111100", 
+        "decimal": 700
+    }, 
+    {
+        "binary": "1010111101", 
+        "decimal": 701
+    }, 
+    {
+        "binary": "1010111110", 
+        "decimal": 702
+    }, 
+    {
+        "binary": "1010111111", 
+        "decimal": 703
+    }, 
+    {
+        "binary": "1011000000", 
+        "decimal": 704
+    }, 
+    {
+        "binary": "1011000001", 
+        "decimal": 705
+    }, 
+    {
+        "binary": "1011000010", 
+        "decimal": 706
+    }, 
+    {
+        "binary": "1011000011", 
+        "decimal": 707
+    }, 
+    {
+        "binary": "1011000100", 
+        "decimal": 708
+    }, 
+    {
+        "binary": "1011000101", 
+        "decimal": 709
+    }, 
+    {
+        "binary": "1011000110", 
+        "decimal": 710
+    }, 
+    {
+        "binary": "1011000111", 
+        "decimal": 711
+    }, 
+    {
+        "binary": "1011001000", 
+        "decimal": 712
+    }, 
+    {
+        "binary": "1011001001", 
+        "decimal": 713
+    }, 
+    {
+        "binary": "1011001010", 
+        "decimal": 714
+    }, 
+    {
+        "binary": "1011001011", 
+        "decimal": 715
+    }, 
+    {
+        "binary": "1011001100", 
+        "decimal": 716
+    }, 
+    {
+        "binary": "1011001101", 
+        "decimal": 717
+    }, 
+    {
+        "binary": "1011001110", 
+        "decimal": 718
+    }, 
+    {
+        "binary": "1011001111", 
+        "decimal": 719
+    }, 
+    {
+        "binary": "1011010000", 
+        "decimal": 720
+    }, 
+    {
+        "binary": "1011010001", 
+        "decimal": 721
+    }, 
+    {
+        "binary": "1011010010", 
+        "decimal": 722
+    }, 
+    {
+        "binary": "1011010011", 
+        "decimal": 723
+    }, 
+    {
+        "binary": "1011010100", 
+        "decimal": 724
+    }, 
+    {
+        "binary": "1011010101", 
+        "decimal": 725
+    }, 
+    {
+        "binary": "1011010110", 
+        "decimal": 726
+    }, 
+    {
+        "binary": "1011010111", 
+        "decimal": 727
+    }, 
+    {
+        "binary": "1011011000", 
+        "decimal": 728
+    }, 
+    {
+        "binary": "1011011001", 
+        "decimal": 729
+    }, 
+    {
+        "binary": "1011011010", 
+        "decimal": 730
+    }, 
+    {
+        "binary": "1011011011", 
+        "decimal": 731
+    }, 
+    {
+        "binary": "1011011100", 
+        "decimal": 732
+    }, 
+    {
+        "binary": "1011011101", 
+        "decimal": 733
+    }, 
+    {
+        "binary": "1011011110", 
+        "decimal": 734
+    }, 
+    {
+        "binary": "1011011111", 
+        "decimal": 735
+    }, 
+    {
+        "binary": "1011100000", 
+        "decimal": 736
+    }, 
+    {
+        "binary": "1011100001", 
+        "decimal": 737
+    }, 
+    {
+        "binary": "1011100010", 
+        "decimal": 738
+    }, 
+    {
+        "binary": "1011100011", 
+        "decimal": 739
+    }, 
+    {
+        "binary": "1011100100", 
+        "decimal": 740
+    }, 
+    {
+        "binary": "1011100101", 
+        "decimal": 741
+    }, 
+    {
+        "binary": "1011100110", 
+        "decimal": 742
+    }, 
+    {
+        "binary": "1011100111", 
+        "decimal": 743
+    }, 
+    {
+        "binary": "1011101000", 
+        "decimal": 744
+    }, 
+    {
+        "binary": "1011101001", 
+        "decimal": 745
+    }, 
+    {
+        "binary": "1011101010", 
+        "decimal": 746
+    }, 
+    {
+        "binary": "1011101011", 
+        "decimal": 747
+    }, 
+    {
+        "binary": "1011101100", 
+        "decimal": 748
+    }, 
+    {
+        "binary": "1011101101", 
+        "decimal": 749
+    }, 
+    {
+        "binary": "1011101110", 
+        "decimal": 750
+    }, 
+    {
+        "binary": "1011101111", 
+        "decimal": 751
+    }, 
+    {
+        "binary": "1011110000", 
+        "decimal": 752
+    }, 
+    {
+        "binary": "1011110001", 
+        "decimal": 753
+    }, 
+    {
+        "binary": "1011110010", 
+        "decimal": 754
+    }, 
+    {
+        "binary": "1011110011", 
+        "decimal": 755
+    }, 
+    {
+        "binary": "1011110100", 
+        "decimal": 756
+    }, 
+    {
+        "binary": "1011110101", 
+        "decimal": 757
+    }, 
+    {
+        "binary": "1011110110", 
+        "decimal": 758
+    }, 
+    {
+        "binary": "1011110111", 
+        "decimal": 759
+    }, 
+    {
+        "binary": "1011111000", 
+        "decimal": 760
+    }, 
+    {
+        "binary": "1011111001", 
+        "decimal": 761
+    }, 
+    {
+        "binary": "1011111010", 
+        "decimal": 762
+    }, 
+    {
+        "binary": "1011111011", 
+        "decimal": 763
+    }, 
+    {
+        "binary": "1011111100", 
+        "decimal": 764
+    }, 
+    {
+        "binary": "1011111101", 
+        "decimal": 765
+    }, 
+    {
+        "binary": "1011111110", 
+        "decimal": 766
+    }, 
+    {
+        "binary": "1011111111", 
+        "decimal": 767
+    }, 
+    {
+        "binary": "1100000000", 
+        "decimal": 768
+    }, 
+    {
+        "binary": "1100000001", 
+        "decimal": 769
+    }, 
+    {
+        "binary": "1100000010", 
+        "decimal": 770
+    }, 
+    {
+        "binary": "1100000011", 
+        "decimal": 771
+    }, 
+    {
+        "binary": "1100000100", 
+        "decimal": 772
+    }, 
+    {
+        "binary": "1100000101", 
+        "decimal": 773
+    }, 
+    {
+        "binary": "1100000110", 
+        "decimal": 774
+    }, 
+    {
+        "binary": "1100000111", 
+        "decimal": 775
+    }, 
+    {
+        "binary": "1100001000", 
+        "decimal": 776
+    }, 
+    {
+        "binary": "1100001001", 
+        "decimal": 777
+    }, 
+    {
+        "binary": "1100001010", 
+        "decimal": 778
+    }, 
+    {
+        "binary": "1100001011", 
+        "decimal": 779
+    }, 
+    {
+        "binary": "1100001100", 
+        "decimal": 780
+    }, 
+    {
+        "binary": "1100001101", 
+        "decimal": 781
+    }, 
+    {
+        "binary": "1100001110", 
+        "decimal": 782
+    }, 
+    {
+        "binary": "1100001111", 
+        "decimal": 783
+    }, 
+    {
+        "binary": "1100010000", 
+        "decimal": 784
+    }, 
+    {
+        "binary": "1100010001", 
+        "decimal": 785
+    }, 
+    {
+        "binary": "1100010010", 
+        "decimal": 786
+    }, 
+    {
+        "binary": "1100010011", 
+        "decimal": 787
+    }, 
+    {
+        "binary": "1100010100", 
+        "decimal": 788
+    }, 
+    {
+        "binary": "1100010101", 
+        "decimal": 789
+    }, 
+    {
+        "binary": "1100010110", 
+        "decimal": 790
+    }, 
+    {
+        "binary": "1100010111", 
+        "decimal": 791
+    }, 
+    {
+        "binary": "1100011000", 
+        "decimal": 792
+    }, 
+    {
+        "binary": "1100011001", 
+        "decimal": 793
+    }, 
+    {
+        "binary": "1100011010", 
+        "decimal": 794
+    }, 
+    {
+        "binary": "1100011011", 
+        "decimal": 795
+    }, 
+    {
+        "binary": "1100011100", 
+        "decimal": 796
+    }, 
+    {
+        "binary": "1100011101", 
+        "decimal": 797
+    }, 
+    {
+        "binary": "1100011110", 
+        "decimal": 798
+    }, 
+    {
+        "binary": "1100011111", 
+        "decimal": 799
+    }, 
+    {
+        "binary": "1100100000", 
+        "decimal": 800
+    }, 
+    {
+        "binary": "1100100001", 
+        "decimal": 801
+    }, 
+    {
+        "binary": "1100100010", 
+        "decimal": 802
+    }, 
+    {
+        "binary": "1100100011", 
+        "decimal": 803
+    }, 
+    {
+        "binary": "1100100100", 
+        "decimal": 804
+    }, 
+    {
+        "binary": "1100100101", 
+        "decimal": 805
+    }, 
+    {
+        "binary": "1100100110", 
+        "decimal": 806
+    }, 
+    {
+        "binary": "1100100111", 
+        "decimal": 807
+    }, 
+    {
+        "binary": "1100101000", 
+        "decimal": 808
+    }, 
+    {
+        "binary": "1100101001", 
+        "decimal": 809
+    }, 
+    {
+        "binary": "1100101010", 
+        "decimal": 810
+    }, 
+    {
+        "binary": "1100101011", 
+        "decimal": 811
+    }, 
+    {
+        "binary": "1100101100", 
+        "decimal": 812
+    }, 
+    {
+        "binary": "1100101101", 
+        "decimal": 813
+    }, 
+    {
+        "binary": "1100101110", 
+        "decimal": 814
+    }, 
+    {
+        "binary": "1100101111", 
+        "decimal": 815
+    }, 
+    {
+        "binary": "1100110000", 
+        "decimal": 816
+    }, 
+    {
+        "binary": "1100110001", 
+        "decimal": 817
+    }, 
+    {
+        "binary": "1100110010", 
+        "decimal": 818
+    }, 
+    {
+        "binary": "1100110011", 
+        "decimal": 819
+    }, 
+    {
+        "binary": "1100110100", 
+        "decimal": 820
+    }, 
+    {
+        "binary": "1100110101", 
+        "decimal": 821
+    }, 
+    {
+        "binary": "1100110110", 
+        "decimal": 822
+    }, 
+    {
+        "binary": "1100110111", 
+        "decimal": 823
+    }, 
+    {
+        "binary": "1100111000", 
+        "decimal": 824
+    }, 
+    {
+        "binary": "1100111001", 
+        "decimal": 825
+    }, 
+    {
+        "binary": "1100111010", 
+        "decimal": 826
+    }, 
+    {
+        "binary": "1100111011", 
+        "decimal": 827
+    }, 
+    {
+        "binary": "1100111100", 
+        "decimal": 828
+    }, 
+    {
+        "binary": "1100111101", 
+        "decimal": 829
+    }, 
+    {
+        "binary": "1100111110", 
+        "decimal": 830
+    }, 
+    {
+        "binary": "1100111111", 
+        "decimal": 831
+    }, 
+    {
+        "binary": "1101000000", 
+        "decimal": 832
+    }, 
+    {
+        "binary": "1101000001", 
+        "decimal": 833
+    }, 
+    {
+        "binary": "1101000010", 
+        "decimal": 834
+    }, 
+    {
+        "binary": "1101000011", 
+        "decimal": 835
+    }, 
+    {
+        "binary": "1101000100", 
+        "decimal": 836
+    }, 
+    {
+        "binary": "1101000101", 
+        "decimal": 837
+    }, 
+    {
+        "binary": "1101000110", 
+        "decimal": 838
+    }, 
+    {
+        "binary": "1101000111", 
+        "decimal": 839
+    }, 
+    {
+        "binary": "1101001000", 
+        "decimal": 840
+    }, 
+    {
+        "binary": "1101001001", 
+        "decimal": 841
+    }, 
+    {
+        "binary": "1101001010", 
+        "decimal": 842
+    }, 
+    {
+        "binary": "1101001011", 
+        "decimal": 843
+    }, 
+    {
+        "binary": "1101001100", 
+        "decimal": 844
+    }, 
+    {
+        "binary": "1101001101", 
+        "decimal": 845
+    }, 
+    {
+        "binary": "1101001110", 
+        "decimal": 846
+    }, 
+    {
+        "binary": "1101001111", 
+        "decimal": 847
+    }, 
+    {
+        "binary": "1101010000", 
+        "decimal": 848
+    }, 
+    {
+        "binary": "1101010001", 
+        "decimal": 849
+    }, 
+    {
+        "binary": "1101010010", 
+        "decimal": 850
+    }, 
+    {
+        "binary": "1101010011", 
+        "decimal": 851
+    }, 
+    {
+        "binary": "1101010100", 
+        "decimal": 852
+    }, 
+    {
+        "binary": "1101010101", 
+        "decimal": 853
+    }, 
+    {
+        "binary": "1101010110", 
+        "decimal": 854
+    }, 
+    {
+        "binary": "1101010111", 
+        "decimal": 855
+    }, 
+    {
+        "binary": "1101011000", 
+        "decimal": 856
+    }, 
+    {
+        "binary": "1101011001", 
+        "decimal": 857
+    }, 
+    {
+        "binary": "1101011010", 
+        "decimal": 858
+    }, 
+    {
+        "binary": "1101011011", 
+        "decimal": 859
+    }, 
+    {
+        "binary": "1101011100", 
+        "decimal": 860
+    }, 
+    {
+        "binary": "1101011101", 
+        "decimal": 861
+    }, 
+    {
+        "binary": "1101011110", 
+        "decimal": 862
+    }, 
+    {
+        "binary": "1101011111", 
+        "decimal": 863
+    }, 
+    {
+        "binary": "1101100000", 
+        "decimal": 864
+    }, 
+    {
+        "binary": "1101100001", 
+        "decimal": 865
+    }, 
+    {
+        "binary": "1101100010", 
+        "decimal": 866
+    }, 
+    {
+        "binary": "1101100011", 
+        "decimal": 867
+    }, 
+    {
+        "binary": "1101100100", 
+        "decimal": 868
+    }, 
+    {
+        "binary": "1101100101", 
+        "decimal": 869
+    }, 
+    {
+        "binary": "1101100110", 
+        "decimal": 870
+    }, 
+    {
+        "binary": "1101100111", 
+        "decimal": 871
+    }, 
+    {
+        "binary": "1101101000", 
+        "decimal": 872
+    }, 
+    {
+        "binary": "1101101001", 
+        "decimal": 873
+    }, 
+    {
+        "binary": "1101101010", 
+        "decimal": 874
+    }, 
+    {
+        "binary": "1101101011", 
+        "decimal": 875
+    }, 
+    {
+        "binary": "1101101100", 
+        "decimal": 876
+    }, 
+    {
+        "binary": "1101101101", 
+        "decimal": 877
+    }, 
+    {
+        "binary": "1101101110", 
+        "decimal": 878
+    }, 
+    {
+        "binary": "1101101111", 
+        "decimal": 879
+    }, 
+    {
+        "binary": "1101110000", 
+        "decimal": 880
+    }, 
+    {
+        "binary": "1101110001", 
+        "decimal": 881
+    }, 
+    {
+        "binary": "1101110010", 
+        "decimal": 882
+    }, 
+    {
+        "binary": "1101110011", 
+        "decimal": 883
+    }, 
+    {
+        "binary": "1101110100", 
+        "decimal": 884
+    }, 
+    {
+        "binary": "1101110101", 
+        "decimal": 885
+    }, 
+    {
+        "binary": "1101110110", 
+        "decimal": 886
+    }, 
+    {
+        "binary": "1101110111", 
+        "decimal": 887
+    }, 
+    {
+        "binary": "1101111000", 
+        "decimal": 888
+    }, 
+    {
+        "binary": "1101111001", 
+        "decimal": 889
+    }, 
+    {
+        "binary": "1101111010", 
+        "decimal": 890
+    }, 
+    {
+        "binary": "1101111011", 
+        "decimal": 891
+    }, 
+    {
+        "binary": "1101111100", 
+        "decimal": 892
+    }, 
+    {
+        "binary": "1101111101", 
+        "decimal": 893
+    }, 
+    {
+        "binary": "1101111110", 
+        "decimal": 894
+    }, 
+    {
+        "binary": "1101111111", 
+        "decimal": 895
+    }, 
+    {
+        "binary": "1110000000", 
+        "decimal": 896
+    }, 
+    {
+        "binary": "1110000001", 
+        "decimal": 897
+    }, 
+    {
+        "binary": "1110000010", 
+        "decimal": 898
+    }, 
+    {
+        "binary": "1110000011", 
+        "decimal": 899
+    }, 
+    {
+        "binary": "1110000100", 
+        "decimal": 900
+    }, 
+    {
+        "binary": "1110000101", 
+        "decimal": 901
+    }, 
+    {
+        "binary": "1110000110", 
+        "decimal": 902
+    }, 
+    {
+        "binary": "1110000111", 
+        "decimal": 903
+    }, 
+    {
+        "binary": "1110001000", 
+        "decimal": 904
+    }, 
+    {
+        "binary": "1110001001", 
+        "decimal": 905
+    }, 
+    {
+        "binary": "1110001010", 
+        "decimal": 906
+    }, 
+    {
+        "binary": "1110001011", 
+        "decimal": 907
+    }, 
+    {
+        "binary": "1110001100", 
+        "decimal": 908
+    }, 
+    {
+        "binary": "1110001101", 
+        "decimal": 909
+    }, 
+    {
+        "binary": "1110001110", 
+        "decimal": 910
+    }, 
+    {
+        "binary": "1110001111", 
+        "decimal": 911
+    }, 
+    {
+        "binary": "1110010000", 
+        "decimal": 912
+    }, 
+    {
+        "binary": "1110010001", 
+        "decimal": 913
+    }, 
+    {
+        "binary": "1110010010", 
+        "decimal": 914
+    }, 
+    {
+        "binary": "1110010011", 
+        "decimal": 915
+    }, 
+    {
+        "binary": "1110010100", 
+        "decimal": 916
+    }, 
+    {
+        "binary": "1110010101", 
+        "decimal": 917
+    }, 
+    {
+        "binary": "1110010110", 
+        "decimal": 918
+    }, 
+    {
+        "binary": "1110010111", 
+        "decimal": 919
+    }, 
+    {
+        "binary": "1110011000", 
+        "decimal": 920
+    }, 
+    {
+        "binary": "1110011001", 
+        "decimal": 921
+    }, 
+    {
+        "binary": "1110011010", 
+        "decimal": 922
+    }, 
+    {
+        "binary": "1110011011", 
+        "decimal": 923
+    }, 
+    {
+        "binary": "1110011100", 
+        "decimal": 924
+    }, 
+    {
+        "binary": "1110011101", 
+        "decimal": 925
+    }, 
+    {
+        "binary": "1110011110", 
+        "decimal": 926
+    }, 
+    {
+        "binary": "1110011111", 
+        "decimal": 927
+    }, 
+    {
+        "binary": "1110100000", 
+        "decimal": 928
+    }, 
+    {
+        "binary": "1110100001", 
+        "decimal": 929
+    }, 
+    {
+        "binary": "1110100010", 
+        "decimal": 930
+    }, 
+    {
+        "binary": "1110100011", 
+        "decimal": 931
+    }, 
+    {
+        "binary": "1110100100", 
+        "decimal": 932
+    }, 
+    {
+        "binary": "1110100101", 
+        "decimal": 933
+    }, 
+    {
+        "binary": "1110100110", 
+        "decimal": 934
+    }, 
+    {
+        "binary": "1110100111", 
+        "decimal": 935
+    }, 
+    {
+        "binary": "1110101000", 
+        "decimal": 936
+    }, 
+    {
+        "binary": "1110101001", 
+        "decimal": 937
+    }, 
+    {
+        "binary": "1110101010", 
+        "decimal": 938
+    }, 
+    {
+        "binary": "1110101011", 
+        "decimal": 939
+    }, 
+    {
+        "binary": "1110101100", 
+        "decimal": 940
+    }, 
+    {
+        "binary": "1110101101", 
+        "decimal": 941
+    }, 
+    {
+        "binary": "1110101110", 
+        "decimal": 942
+    }, 
+    {
+        "binary": "1110101111", 
+        "decimal": 943
+    }, 
+    {
+        "binary": "1110110000", 
+        "decimal": 944
+    }, 
+    {
+        "binary": "1110110001", 
+        "decimal": 945
+    }, 
+    {
+        "binary": "1110110010", 
+        "decimal": 946
+    }, 
+    {
+        "binary": "1110110011", 
+        "decimal": 947
+    }, 
+    {
+        "binary": "1110110100", 
+        "decimal": 948
+    }, 
+    {
+        "binary": "1110110101", 
+        "decimal": 949
+    }, 
+    {
+        "binary": "1110110110", 
+        "decimal": 950
+    }, 
+    {
+        "binary": "1110110111", 
+        "decimal": 951
+    }, 
+    {
+        "binary": "1110111000", 
+        "decimal": 952
+    }, 
+    {
+        "binary": "1110111001", 
+        "decimal": 953
+    }, 
+    {
+        "binary": "1110111010", 
+        "decimal": 954
+    }, 
+    {
+        "binary": "1110111011", 
+        "decimal": 955
+    }, 
+    {
+        "binary": "1110111100", 
+        "decimal": 956
+    }, 
+    {
+        "binary": "1110111101", 
+        "decimal": 957
+    }, 
+    {
+        "binary": "1110111110", 
+        "decimal": 958
+    }, 
+    {
+        "binary": "1110111111", 
+        "decimal": 959
+    }, 
+    {
+        "binary": "1111000000", 
+        "decimal": 960
+    }, 
+    {
+        "binary": "1111000001", 
+        "decimal": 961
+    }, 
+    {
+        "binary": "1111000010", 
+        "decimal": 962
+    }, 
+    {
+        "binary": "1111000011", 
+        "decimal": 963
+    }, 
+    {
+        "binary": "1111000100", 
+        "decimal": 964
+    }, 
+    {
+        "binary": "1111000101", 
+        "decimal": 965
+    }, 
+    {
+        "binary": "1111000110", 
+        "decimal": 966
+    }, 
+    {
+        "binary": "1111000111", 
+        "decimal": 967
+    }, 
+    {
+        "binary": "1111001000", 
+        "decimal": 968
+    }, 
+    {
+        "binary": "1111001001", 
+        "decimal": 969
+    }, 
+    {
+        "binary": "1111001010", 
+        "decimal": 970
+    }, 
+    {
+        "binary": "1111001011", 
+        "decimal": 971
+    }, 
+    {
+        "binary": "1111001100", 
+        "decimal": 972
+    }, 
+    {
+        "binary": "1111001101", 
+        "decimal": 973
+    }, 
+    {
+        "binary": "1111001110", 
+        "decimal": 974
+    }, 
+    {
+        "binary": "1111001111", 
+        "decimal": 975
+    }, 
+    {
+        "binary": "1111010000", 
+        "decimal": 976
+    }, 
+    {
+        "binary": "1111010001", 
+        "decimal": 977
+    }, 
+    {
+        "binary": "1111010010", 
+        "decimal": 978
+    }, 
+    {
+        "binary": "1111010011", 
+        "decimal": 979
+    }, 
+    {
+        "binary": "1111010100", 
+        "decimal": 980
+    }, 
+    {
+        "binary": "1111010101", 
+        "decimal": 981
+    }, 
+    {
+        "binary": "1111010110", 
+        "decimal": 982
+    }, 
+    {
+        "binary": "1111010111", 
+        "decimal": 983
+    }, 
+    {
+        "binary": "1111011000", 
+        "decimal": 984
+    }, 
+    {
+        "binary": "1111011001", 
+        "decimal": 985
+    }, 
+    {
+        "binary": "1111011010", 
+        "decimal": 986
+    }, 
+    {
+        "binary": "1111011011", 
+        "decimal": 987
+    }, 
+    {
+        "binary": "1111011100", 
+        "decimal": 988
+    }, 
+    {
+        "binary": "1111011101", 
+        "decimal": 989
+    }, 
+    {
+        "binary": "1111011110", 
+        "decimal": 990
+    }, 
+    {
+        "binary": "1111011111", 
+        "decimal": 991
+    }, 
+    {
+        "binary": "1111100000", 
+        "decimal": 992
+    }, 
+    {
+        "binary": "1111100001", 
+        "decimal": 993
+    }, 
+    {
+        "binary": "1111100010", 
+        "decimal": 994
+    }, 
+    {
+        "binary": "1111100011", 
+        "decimal": 995
+    }, 
+    {
+        "binary": "1111100100", 
+        "decimal": 996
+    }, 
+    {
+        "binary": "1111100101", 
+        "decimal": 997
+    }, 
+    {
+        "binary": "1111100110", 
+        "decimal": 998
+    }, 
+    {
+        "binary": "1111100111", 
+        "decimal": 999
+    }, 
+    {
+        "binary": "1111101000", 
+        "decimal": 1000
+    }, 
+    {
+        "binary": "1111101001", 
+        "decimal": 1001
+    }, 
+    {
+        "binary": "1111101010", 
+        "decimal": 1002
+    }, 
+    {
+        "binary": "1111101011", 
+        "decimal": 1003
+    }, 
+    {
+        "binary": "1111101100", 
+        "decimal": 1004
+    }, 
+    {
+        "binary": "1111101101", 
+        "decimal": 1005
+    }, 
+    {
+        "binary": "1111101110", 
+        "decimal": 1006
+    }, 
+    {
+        "binary": "1111101111", 
+        "decimal": 1007
+    }, 
+    {
+        "binary": "1111110000", 
+        "decimal": 1008
+    }, 
+    {
+        "binary": "1111110001", 
+        "decimal": 1009
+    }, 
+    {
+        "binary": "1111110010", 
+        "decimal": 1010
+    }, 
+    {
+        "binary": "1111110011", 
+        "decimal": 1011
+    }, 
+    {
+        "binary": "1111110100", 
+        "decimal": 1012
+    }, 
+    {
+        "binary": "1111110101", 
+        "decimal": 1013
+    }, 
+    {
+        "binary": "1111110110", 
+        "decimal": 1014
+    }, 
+    {
+        "binary": "1111110111", 
+        "decimal": 1015
+    }, 
+    {
+        "binary": "1111111000", 
+        "decimal": 1016
+    }, 
+    {
+        "binary": "1111111001", 
+        "decimal": 1017
+    }, 
+    {
+        "binary": "1111111010", 
+        "decimal": 1018
+    }, 
+    {
+        "binary": "1111111011", 
+        "decimal": 1019
+    }, 
+    {
+        "binary": "1111111100", 
+        "decimal": 1020
+    }, 
+    {
+        "binary": "1111111101", 
+        "decimal": 1021
+    }, 
+    {
+        "binary": "1111111110", 
+        "decimal": 1022
+    }, 
+    {
+        "binary": "1111111111", 
+        "decimal": 1023
+    }
+]
