@@ -1,6 +1,10 @@
 import urwid
 import json
 import random
+import six
+from six import u as unicode
+
+
 from os import walk
 
 def ultimateKeys(key):
@@ -36,11 +40,29 @@ class flashcard(urwid.Pile):
             padd.original_widget=padd.original_widget[0]
         return self.answer.keypress(size,key)# pass the keypress onto the answerbox
 
-def deckChosen(button,deck):
+def jsonDeck(deck):
     fl = open('decords/{}'.format(deck),'r')
     deck = json.load(fl)
     fl.close()
-    del fl
+    del(fl)
+    return deck
+
+import mistune
+from lxml import etree
+def markdownDeck(deck):
+    fl = open('decords/{}'.format(deck),'r')
+    xml = mistune.markdown(fl.read())
+    fl.close()
+    del(fl)
+    xml = etree.fromstring(xml)
+
+    pass
+
+def deckChosen(button,deck):
+    if deck.lower().endswith(".json"):
+        deck = jsonDeck(deck)
+    elif deck.lower().endswith(".md"):
+        deck = markdownDeck(deck)
     keys = set()
     for card in deck:
         for key in card:
