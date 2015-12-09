@@ -2,24 +2,47 @@ import urwid
 import json
 import random
 from os import walk
+import time
 
 def ultimateKeys(key):
     pass
 
+
 class flashcard(urwid.Pile):
-    def randomizeQuestion(self):
-        self.questionNumber=random.randint(0,len(self.deck)-1)
-        self.question.set_text(unicode(self.deck[self.questionNumber][self.questionKey]))
-        self.answer.set_edit_text("")
+    "flashcard widget, needs a json list of dictionarys as a deck"
     def __init__(self, deck,questionKey,answerKey,*args,**kwargs):
+        answerModes = [self.answerByLetter,self.answerByEnter]
+        cardModes = [self.randomCard]
+
+        self.answerMode = answerModes[0]
+        self.cardMode = cardModes[0]
+
         self.deck = deck
         self.questionKey = questionKey
         self.answerKey = answerKey
+        self.timedelta = urwid.Text("")
         self.question = urwid.Text("")
         self.answer = urwid.Edit()
-        self.randomizeQuestion()
-        super(flashcard,self).__init__([self.question,self.answer],**kwargs)
+        self.responses=[]
+
+        self.getNextCard()
+        super(flashcard,self).__init__([self.timedelta,self.question,self.answer],**kwargs)
+
+    ### Stuff to do with the selection of cards from the deck!
+    def getNextCard(self):
+        self.cardMode()
+    def randomCard(self):
+        self.questionNumber=random.randint(0,len(self.deck)-1)
+        self.question.set_text(unicode(self.deck[self.questionNumber][self.questionKey]))
+        self.answer.set_edit_text("")
+        self.lastTime=time.time()
+
     def keypress(self,size,key):
+        return(self.answerMode(size,key))
+
+    def answerByEnter(self,size,key):
+        """Type whatever answer, however long, and then press 'enter'.
+         Only then do you know whether or not your answer is correct."""
         if key == 'enter':
             # correct answer
             if self.answer.edit_text == unicode(self.deck[self.questionNumber][self.answerKey]):
@@ -36,6 +59,38 @@ class flashcard(urwid.Pile):
             padd.original_widget=padd.original_widget[0]
         return self.answer.keypress(size,key)# pass the keypress onto the answerbox
 
+    def answerByLetter(self,size,key):
+        """Accepts one letter at a time, lets you know if and when you screw up.
+         And deletes your dumb wrongness."""
+        # correct letter
+        if unicode(self.deck[self.questionNumber][self.answerKey]).startswith(self.answer.edit_text + key):
+            # complete correct answer!
+            if unicode(self.deck[self.questionNumber][self.answerKey]) == self.answer.edit_text + key:
+                self.responses+=[(key,time.time()-self.lastTime)]
+                string=""
+                for foo in self.responses:
+                    string+="{0[0]}:{0[1]:.2f}, ".format(foo)
+                self.timedelta.set_text(string)
+                self.getNextCard()
+            else:
+                # pass on the correct key to the answerbox
+                self.answer.keypress(size,key)
+        # exit widget on esc keypress
+        elif key == 'esc':
+            #THIS IS HACKY AS FUCK. tbh I don't urwid so good yet.
+            padd.original_widget=padd.original_widget[0]
+        # incorrect letter
+        else:
+            self.question.set_text(u"{} is {}".format(
+                unicode(self.deck[self.questionNumber][self.questionKey]),
+                unicode(self.deck[self.questionNumber][self.answerKey])
+                ))
+
+def keypressBaselineChosen(button):
+    cardwidget = keypressBaseline()
+    box = urwid.LineBox(cardwidget)
+    fill = urwid.Filler(box,'middle')
+    openSimpleOverlay(fill)
 def deckChosen(button,deck):
     fl = open('decords/{}'.format(deck),'r')
     deck = json.load(fl)
@@ -47,7 +102,7 @@ def deckChosen(button,deck):
             keys.add(key)
     keys=list(keys)
     prompt=random.choice(keys)
-    keys.remove(prompt)
+    #keys.remove(prompt)
     answer=random.choice(keys)
     cardwidget = flashcard(deck,prompt,answer)
     box = urwid.LineBox(cardwidget)
@@ -69,16 +124,20 @@ class Menu(urwid.ListBox):
                 newButton = urwid.Button(fyle)
                 buttons.append(newButton)
                 urwid.connect_signal(newButton, 'click', deckChosen, fyle)
+        # and then there's this keypress baseline...
+        keys=" e t a o i n s h r d l c u m w f g y p b v k j x q z ".split()
+        keypressBaseline=urwid.Button("keypress baseline")
+        buttons.append(keypressBaseline)
+        urwid.connect_signal(keypressBaseline, 'click',keypressBaselineChosen)
         super(Menu,self).__init__(buttons,**kwargs)
     def keypress(self,size,key):
         if key == 'esc':
             raise urwid.ExitMainLoop()
         return super(Menu,self).keypress(size,key)
 
-menu = Menu()
-padd = urwid.Padding(menu,'center',left=2,right=2)
-
-loop = urwid.MainLoop(padd, unhandled_input=ultimateKeys)
-
-loop.run()
+if __name__=="__main__":
+    menu = Menu()
+    padd = urwid.Padding(menu,'center',left=2,right=2)
+    loop = urwid.MainLoop(padd, unhandled_input=ultimateKeys)
+    loop.run()
 
