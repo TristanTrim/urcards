@@ -8,9 +8,6 @@ from six import u as unicode
 from os import walk
 import time
 
-def ultimateKeys(key):
-    pass
-
 
 class flashcard(urwid.Pile):
     "flashcard widget, needs a json list of dictionarys as a deck"
@@ -91,7 +88,8 @@ class flashcard(urwid.Pile):
                 ))
 
 def keypressBaselineChosen(button):
-    cardwidget = keypressBaseline()
+    keys=[{"letter":x} for x in " e t a o i n s h r d l c u m w f g y p b v k j x q z ".split()]
+    cardwidget = flashcard(keys,'letter','letter')
     box = urwid.LineBox(cardwidget)
     fill = urwid.Filler(box,'middle')
     openSimpleOverlay(fill)
@@ -148,7 +146,6 @@ class Menu(urwid.ListBox):
                 buttons.append(newButton)
                 urwid.connect_signal(newButton, 'click', deckChosen, fyle)
         # and then there's this keypress baseline...
-        keys=" e t a o i n s h r d l c u m w f g y p b v k j x q z ".split()
         keypressBaseline=urwid.Button("keypress baseline")
         buttons.append(keypressBaseline)
         urwid.connect_signal(keypressBaseline, 'click',keypressBaselineChosen)
@@ -161,6 +158,6 @@ class Menu(urwid.ListBox):
 if __name__=="__main__":
     menu = Menu()
     padd = urwid.Padding(menu,'center',left=2,right=2)
-    loop = urwid.MainLoop(padd, unhandled_input=ultimateKeys)
+    loop = urwid.MainLoop(padd)
     loop.run()
 
