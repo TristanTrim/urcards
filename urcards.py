@@ -3,11 +3,18 @@ import json
 import random
 import six
 from six import u as unicode
-
+def strOrU(foo):
+    """I love Unicode. This fancy function takes an object that
+    might be unicode or a str and returns a unicode."""
+    try:
+        bar = unicode(foo)
+        return bar
+    except TypeError as e:
+        if "decoding Unicode is not supported" in str(e):
+            return foo
 
 from os import walk
 import time
-
 
 class flashcard(urwid.Pile):
     "flashcard widget, needs a json list of dictionarys as a deck"
@@ -34,7 +41,7 @@ class flashcard(urwid.Pile):
         self.cardMode()
     def randomCard(self):
         self.questionNumber=random.randint(0,len(self.deck)-1)
-        self.question.set_text(unicode(self.deck[self.questionNumber][self.questionKey]))
+        self.question.set_text(strOrU(self.deck[self.questionNumber][self.questionKey]))
         self.answer.set_edit_text("")
         self.lastTime=time.time()
 
@@ -46,13 +53,13 @@ class flashcard(urwid.Pile):
          Only then do you know whether or not your answer is correct."""
         if key == 'enter':
             # correct answer
-            if self.answer.edit_text == unicode(self.deck[self.questionNumber][self.answerKey]):
+            if self.answer.edit_text == strOrU(self.deck[self.questionNumber][self.answerKey]):
                 self.randomizeQuestion()
             # incorrect answer
             else:
                 self.question.set_text(u"{} is {}".format(
-                    unicode(self.deck[self.questionNumber][self.questionKey]),
-                    unicode(self.deck[self.questionNumber][self.answerKey])
+                    strOrU(self.deck[self.questionNumber][self.questionKey]),
+                    strOrU(self.deck[self.questionNumber][self.answerKey])
                     ))
                 self.answer.set_edit_text("")
         elif key == 'esc':
@@ -64,9 +71,9 @@ class flashcard(urwid.Pile):
         """Accepts one letter at a time, lets you know if and when you screw up.
          And deletes your dumb wrongness."""
         # correct letter
-        if unicode(self.deck[self.questionNumber][self.answerKey]).startswith(self.answer.edit_text + key):
+        if strOrU(self.deck[self.questionNumber][self.answerKey]).startswith(self.answer.edit_text + strOrU(key)):
             # complete correct answer!
-            if unicode(self.deck[self.questionNumber][self.answerKey]) == self.answer.edit_text + key:
+            if strOrU(self.deck[self.questionNumber][self.answerKey]) == self.answer.edit_text + key:
                 self.responses+=[(key,time.time()-self.lastTime)]
                 string=""
                 for foo in self.responses:
@@ -83,8 +90,8 @@ class flashcard(urwid.Pile):
         # incorrect letter
         else:
             self.question.set_text(u"{} is {}".format(
-                unicode(self.deck[self.questionNumber][self.questionKey]),
-                unicode(self.deck[self.questionNumber][self.answerKey])
+                strOrU(self.deck[self.questionNumber][self.questionKey]),
+                strOrU(self.deck[self.questionNumber][self.answerKey])
                 ))
 
 def keypressBaselineChosen(button):
