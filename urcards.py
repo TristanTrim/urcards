@@ -7,13 +7,14 @@ def strOrU(foo):
     """I love Unicode. This fancy function takes an object that
     might be unicode or a str and returns a unicode."""
     try:
-        bar = unicode(foo)
+        bar = unicode(str(foo))
         return bar
     except TypeError as e:
         if "decoding Unicode is not supported" in str(e):
             return foo
 
 from os import walk
+from os import path
 import time
 
 class flashcard(urwid.Pile):
@@ -116,26 +117,47 @@ def markdownDeck(deck):
     fl.close()
     del(fl)
     xml = etree.fromstring(xml)
-
     pass
 
-def deckChosen(button,deck):
-    if deck.lower().endswith(".json"):
-        deck = jsonDeck(deck)
-    elif deck.lower().endswith(".md"):
-        deck = markdownDeck(deck)
+def deckChosen(button,deckName):
+    if deckName.lower().endswith(".json"):
+        deck = jsonDeck(deckName)
+    elif deckName.lower().endswith(".md"):
+        deck = markdownDeck(deckName)
+    settingsFile = "decords/{}.settings".format(path.splitext(deckName)[0])
+    if path.exists(settingsFile):
+        settings = loadSettings(settingsFile)
+    else:
+        settings = initSettings(settingsFile,deck)
+    prompt=random.choice(settings['keys'])
+    answer=random.choice(settings['keys'])
+    cardwidget = flashcard(deck,prompt,answer)
+    box = urwid.LineBox(cardwidget)
+    fill = urwid.Filler(box,'middle')
+    openSimpleOverlay(fill)
+def loadSettings(settingsFile):
+    fl = open(settingsFile,'r')
+    settings = json.load(fl)
+    fl.close()
+    del(fl)
+    return settings
+def initSettings(settingsFile,deck):
     keys = set()
     for card in deck:
         for key in card:
             keys.add(key)
     keys=list(keys)
-    prompt=random.choice(keys)
-    #keys.remove(prompt)
-    answer=random.choice(keys)
-    cardwidget = flashcard(deck,prompt,answer)
-    box = urwid.LineBox(cardwidget)
-    fill = urwid.Filler(box,'middle')
-    openSimpleOverlay(fill)
+   #prompt=random.choice(keys)
+   ##keys.remove(prompt)
+   #answer=random.choice(keys)
+    settings = {"keys":keys}
+    fl = open(settingsFile,'w')
+    fl.write(json.dumps(settings))
+    fl.close()
+    del(fl)
+    return(settings)
+
+    
 
 def openSimpleOverlay(wid):
     padd.original_widget = urwid.Overlay(wid,
@@ -148,7 +170,7 @@ class Menu(urwid.ListBox):
     def __init__(self,*args,**kwargs):
         buttons = []
         for directory,otherThing,fyles in walk('decords'):
-            for fyle in fyles:
+            for fyle in [x for x in fyles if '.settings' not in x]:
                 newButton = urwid.Button(fyle)
                 buttons.append(newButton)
                 urwid.connect_signal(newButton, 'click', deckChosen, fyle)
