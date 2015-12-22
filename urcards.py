@@ -19,12 +19,13 @@ import time
 
 class flashcard(urwid.Pile):
     "flashcard widget, needs a json list of dictionarys as a deck"
-    def __init__(self, deck,questionKey,answerKey,*args,**kwargs):
-        answerModes = [self.answerByLetter,self.answerByEnter]
-        cardModes = [self.randomCard]
+    def __init__(self, deck,deckName,questionKey,answerKey,*args,**kwargs):
+        self.recordFile = open("decords/{}.record".format(path.splitext(deckName)[0]),'a')
+        self.answerModes = [self.answerByLetter,self.answerByEnter]
+        self.cardModes = [self.randomCard]
 
-        self.answerMode = answerModes[0]
-        self.cardMode = cardModes[0]
+        self.answerMode = self.answerModes[0]
+        self.cardMode = self.cardModes[0]
 
         self.deck = deck
         self.questionKey = questionKey
@@ -71,8 +72,17 @@ class flashcard(urwid.Pile):
     def answerByLetter(self,size,key):
         """Accepts one letter at a time, lets you know if and when you screw up.
          And deletes your dumb wrongness."""
+        answerData={
+            "t":time.time(),#Time of answer
+            "q":self.deck[self.questionNumber][self.questionKey],#question
+            "a":self.deck[self.questionNumber][self.answerKey],#correct answer
+            #"r":,#user response
+            "d":time.time()-self.lastTime,#timedelta
+            #"c":,#if users response is correct
+            }
         # correct letter
-        if strOrU(self.deck[self.questionNumber][self.answerKey]).startswith(self.answer.edit_text + strOrU(key)):
+        if strOrU(self.deck[self.questionNumber][self.answerKey]
+                  ).startswith(self.answer.edit_text + strOrU(key)):
             # complete correct answer!
             if strOrU(self.deck[self.questionNumber][self.answerKey]) == self.answer.edit_text + key:
                 self.responses+=[(key,time.time()-self.lastTime)]
@@ -81,6 +91,11 @@ class flashcard(urwid.Pile):
                     string+="{0[0]}:{0[1]:.2f}, ".format(foo)
                 self.timedelta.set_text(string)
                 self.getNextCard()
+                answerData['c']=True
+                self.recordFile.write(json.dumps(answerData,
+                                              sort_keys=True, indent=4)+",\n")
+                self.recordFile.flush()
+            # correct so far
             else:
                 # pass on the correct key to the answerbox
                 self.answer.keypress(size,key)
@@ -94,10 +109,15 @@ class flashcard(urwid.Pile):
                 strOrU(self.deck[self.questionNumber][self.questionKey]),
                 strOrU(self.deck[self.questionNumber][self.answerKey])
                 ))
+            answerData['c']=False
+            answerData['r']= self.answer.edit_text + strOrU(key)
+            self.recordFile.write(json.dumps(answerData,
+                                              sort_keys=True, indent=4)+",\n")
+            self.recordFile.flush()
 
 def keypressBaselineChosen(button):
     keys=[{"letter":x} for x in " e t a o i n s h r d l c u m w f g y p b v k j x q z ".split()]
-    cardwidget = flashcard(keys,'letter','letter')
+    cardwidget = flashcard(keys,'keypressBaseline.json','letter','letter')
     box = urwid.LineBox(cardwidget)
     fill = urwid.Filler(box,'middle')
     openSimpleOverlay(fill)
@@ -131,16 +151,18 @@ def deckChosen(button,deckName):
         settings = initSettings(settingsFile,deck)
     prompt=random.choice(settings['keys'])
     answer=random.choice(settings['keys'])
-    cardwidget = flashcard(deck,prompt,answer)
+    cardwidget = flashcard(deck,deckName,prompt,answer)
     box = urwid.LineBox(cardwidget)
     fill = urwid.Filler(box,'middle')
     openSimpleOverlay(fill)
+
 def loadSettings(settingsFile):
     fl = open(settingsFile,'r')
     settings = json.load(fl)
     fl.close()
     del(fl)
     return settings
+
 def initSettings(settingsFile,deck):
     keys = set()
     for card in deck:
@@ -152,12 +174,11 @@ def initSettings(settingsFile,deck):
    #answer=random.choice(keys)
     settings = {"keys":keys}
     fl = open(settingsFile,'w')
-    fl.write(json.dumps(settings))
+    fl.write(json.dumps(settings,
+                     sort_keys=True, indent=4))
     fl.close()
     del(fl)
     return(settings)
-
-    
 
 def openSimpleOverlay(wid):
     padd.original_widget = urwid.Overlay(wid,
@@ -170,7 +191,7 @@ class Menu(urwid.ListBox):
     def __init__(self,*args,**kwargs):
         buttons = []
         for directory,otherThing,fyles in walk('decords'):
-            for fyle in [x for x in fyles if '.settings' not in x]:
+            for fyle in [x for x in fyles if '.settings' not in x and '.record' not in x]:
                 newButton = urwid.Button(fyle)
                 buttons.append(newButton)
                 urwid.connect_signal(newButton, 'click', deckChosen, fyle)
